@@ -4,10 +4,13 @@ const port = 5000;
 
 require('dotenv').config();
 
+app.use(express.json());
+
 // instance of nodemailer
 const nodemailer = require("nodemailer");
 
 let transporter = nodemailer.createTransport({
+  // Plug in Breaking Barriers service email
   service: 'gmail',
   auth: {
     user: process.env.EMAIL_USER,
@@ -15,28 +18,18 @@ let transporter = nodemailer.createTransport({
   }
 });
 
-// ymxgdnebswajhidv
-
-app.use(express.json());
-
-//app.use(express.static('./public'));
+app.use(express.static('./assets'));
 
 app.get('/', (req, res) => {
-    res.send('This is the root route of our website.');
+    res.sendFile(__dirname + '/index.html');
 });
 
 app.post("/contact_us", (req, res) => {
-  /*
-  name: name
-  email: email
-  subject: subject
-  message: message
-  */
   const mailOptions = {
-    from: process.env.EMAIL_USER,
     to: process.env.EMAIL_USER,
-    subject: req.body.subject,
-    text: req.body.message
+    subject: `${req.body.name}: ${req.body.subject}`,
+    text: req.body.message,
+    replyTo: req.body.email
   }
 
   transporter.sendMail(mailOptions, function(error, info){
@@ -50,8 +43,6 @@ app.post("/contact_us", (req, res) => {
       }
   })
 });
-
-
 
 app.listen(port, () => {
     console.log('Currently listening on port ' + port);
