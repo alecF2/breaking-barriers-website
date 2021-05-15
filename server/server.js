@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const port = 5000;
 
+const fetch = require('node-fetch');
+
 require('dotenv').config();
 
 app.use(express.json());
@@ -41,6 +43,15 @@ app.post("/contact_us", (req, res) => {
           console.log('sent' + info.response);
           res.json("Successfully sent email to " + mailOptions.to);
       }
+  })
+});
+
+app.post("/captcha", (req, res) => {
+  fetch(`https://www.google.com/recaptcha/api/siteverify?secret=${process.env.SECRET_CAPTCHA_KEY}&response=${req.body.token}`, {
+    method: 'POST',
+    headers: {'Content-Type':'application/json'}
+  }).then(response => response.json()).then(data => {
+    console.log(data);
   })
 });
 
