@@ -27,14 +27,20 @@ app.get('/', (req, res) => {
 });
 
 app.post("/contact_us", (req, res) => {
+  // judge the score
   const mailOptions = {
-    to: process.env.EMAIL_USER,
+    to: "ly.devin.177@gmail.com",
     subject: `${req.body.name}: ${req.body.subject}`,
-    text: req.body.message,
     replyTo: req.body.email
   }
 
-  transporter.sendMail(mailOptions, function(error, info){
+  if (req.body.score <= 0.3) {
+    // end
+    ;
+  } else if (req.body.score <= 0.7) {
+    // send with disclaimer
+    mailOptions.text = "Warning from server: Potential spam\n" + req.body.message;
+    transporter.sendMail(mailOptions, function(error, info){
       if(error){
           console.log(error);  
           res.json(error);
@@ -43,7 +49,23 @@ app.post("/contact_us", (req, res) => {
           console.log('sent' + info.response);
           res.json("Successfully sent email to " + mailOptions.to);
       }
-  })
+    })
+  } else {
+    // 0.7+
+    mailOptions.text = req.body.message;
+    transporter.sendMail(mailOptions, function(error, info){
+      if(error){
+          console.log(error);  
+          res.json(error);
+      }
+      else{
+          console.log('sent' + info.response);
+          res.json("Successfully sent email to " + mailOptions.to);
+      }
+    })
+  }
+
+
 });
 
 app.post("/captcha", (req, res) => {
