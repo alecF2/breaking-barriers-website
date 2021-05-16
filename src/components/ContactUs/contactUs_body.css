@@ -1,0 +1,32 @@
+.contactContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.formContainer {
+  display: flex;
+  width: 80vw;
+  border: solid black;
+  flex-direction: column;
+}
+
+.formContainer > p {
+  font-size: 15pt;
+}
+
+.formContainer > label, input {
+  display: block;
+}
+
+.formContainer > input {
+  width: 80vw;
+}
+
+.formContainer > button {
+  width: 97px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  background-color: #C4C4C4;
+}
