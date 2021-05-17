@@ -2,5 +2,14 @@
     margin: auto;
     margin-bottom: 8%;
     display: block;
-    width: 100%;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.overlay-text {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: #37392e;
 }
