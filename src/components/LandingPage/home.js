@@ -9,8 +9,7 @@ const Home = () =>{
 			<img className="home-img" src="image.png" alt="Landing"></img>
 			<div className="overlay-text">
 				<h1><q>Breaking</q> that invisible barrier across generations</h1>
-				<br></br>
-					<h2>smaller text goes here</h2>
+				<h2></h2>
 			</div>
 			</div>
 		</React.Fragment>
