@@ -6,7 +6,11 @@ const Home = () =>{
 	return(
 		<React.Fragment>
 			<div className="barriers-home">
-				<h1>This is Arnav and Amy!</h1>
+			<img className="home-img" src="image.png" alt="Landing"></img>
+			<div className="overlay-text">
+				<h1><q>Breaking</q> that invisible barrier across generations</h1>
+					<h2>smaller text goes here</h2>
+			</div>
 			</div>
 		</React.Fragment>
 	);
