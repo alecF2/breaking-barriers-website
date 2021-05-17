@@ -1,39 +1,35 @@
 import './contactUs_body.css';
 
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const ContactUs_body = () =>{
 	return (
     <React.Fragment>
       <div className="barriers-contact-us-body">
         <div className="contactContainer">
-          <div className="formContainer">
+          <div className="contactFormContainer">
             <h1>Contact Us</h1>
             <p>
               If you are interested in volunteering or partnering with us,
-              Please feel free to contact us below!
+              please feel free to contact us below!
             </p>
             <form>
               <label>
-                Name:
-                <input type="text" name="name" />
+                NAME:
+                <input type="text" name="userName"/>
               </label>
-            </form>
-						<form>
               <label>
-                Email:
-                <input type="text" name="name" />
+                EMAIL:
+                <input type="text" name="email"/>
               </label>
-            </form>
-						<form>
               <label>
-                Comment:
-                <input type="text" name="name" />
+                COMMENT:
+                <br/>
+                <textarea type="text" name="email"></textarea>
               </label>
+                <br/>
+              <button>Submit</button>
             </form>
-						<button>
-							Submit
-						</button>
           </div>
         </div>
       </div>

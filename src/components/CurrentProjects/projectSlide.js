@@ -1,23 +1,41 @@
 import './projectSlide.css';
-import Slider from "react-slick";
-import React, { useEffect, useState } from 'react';
-import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa';
+import {SliderData} from './SliderData.js'; 
+import React, {Component, useState} from 'react';
+import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
 
-const ProjectSlide = () =>{
-
+const ProjectSlide = ({ slides }) =>{
 	const [current, setCurrent] = useState(0);
+	const length = slides.length;
+  
+	const nextSlide = () => {
+	  setCurrent(current === length - 1 ? 0 : current + 1);
+	};
+  
+	const prevSlide = () => {
+	  setCurrent(current === 0 ? length - 1 : current - 1);
+	};
+  
+	if (!Array.isArray(slides) || slides.length <= 0) {
+	  return null;
+	}
 
 	return(
-		<React.Fragment>
-			<div className="barriers-project-slide">
-				<h1>This is for Ethan, Iftekar, and Raunak!</h1>
-				<h1> This is inside slides</h1>
-				
-				<FaArrowAltCircleLeft className='left-arrow'/>
-				<FaArrowAltCircleRight className='right-arrow'/>
-			</div>
-		</React.Fragment>
-	);
+		<section className="slider">
+			<FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide}/>
+			<FaArrowAltCircleRight className="right-arrow" onClick={nextSlide}/>
+			{SliderData.map((slide, index) => {
+
+				return (
+					<div className={index === current ? 'slide active' : 'slide'}
+					key={index}>
+            		{index === current && (
+              		<img src={slide.image} alt='travel image' className='image' />
+            		)}
+         			</div>
+				);
+			})}
+		</section>
+	)
 }
 
 export default ProjectSlide;
