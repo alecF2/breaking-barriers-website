@@ -15,17 +15,17 @@
   flex-direction: column;
 }
 
-.contactFormContainer p {
+.contactFormContainer > p {
   font-size: 12pt;
   margin-top: 25px;
   margin-bottom: 30px;
 }
 
-.contactFormContainer label, input {
+.contactFormContainer > label, input {
   display: block;
 }
 
-.contactFormContainer button {
+.contactFormContainer > form > button {
   font-family: 'Poppins', sans-serif;
   width: 97px;
   height: 30px;
@@ -34,16 +34,15 @@
   background-color: #C4C4C4;
 }
 
-.contactFormContainer textarea {
+textarea {
   font-family: 'Poppins', sans-serif;
-  margin-bottom: -15px;
   height: 142px;
   width: 273px;
   border: solid black 2px;
   resize: none;
 }
 
-.contactFormContainer input {
+ input {
   font-family: 'Poppins', sans-serif;
   width: 273px;
   height: 33px;
@@ -51,7 +50,7 @@
   border: solid black 2px;
 }
 
-.contactFormContainer H1 {
+.contactFormContainer > H1 {
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 28pt;
   margin: 0;
