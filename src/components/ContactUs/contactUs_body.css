@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@900&display=swap');
+
+.contactContainer {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.contactFormContainer {
+  display: flex;
+  width: 80vw;
+  /* border: solid black; */
+  flex-direction: column;
+}
+
+.contactFormContainer > p {
+  font-size: 12pt;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.contactFormContainer > label, input {
+  display: block;
+}
+
+.contactFormContainer > form > button {
+  font-family: 'Poppins', sans-serif;
+  width: 97px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  background-color: #C4C4C4;
+}
+
+textarea {
+  font-family: 'Poppins', sans-serif;
+  height: 142px;
+  width: 273px;
+  border: solid black 2px;
+  resize: none;
+}
+
+ input {
+  font-family: 'Poppins', sans-serif;
+  width: 273px;
+  height: 33px;
+  margin-bottom: 25px;
+  border: solid black 2px;
+}
+
+.contactFormContainer > H1 {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 28pt;
+  margin: 0;
+  padding: 0;
+  margin-bottom: -20px;
+}

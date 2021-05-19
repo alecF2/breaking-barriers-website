@@ -6,7 +6,8 @@ const WhoWeAre = () =>{
 	return(
 		<React.Fragment>
 			<div className="barriers-who-we-are">
-				<h1>This is Arnav and Amy!</h1>
+				<h1>Who We Are</h1>
+				<h2>We are a student-led organization at UC Davis seeking to build lasting relationships with older adults through various projects. The gap between older adults and the younger generations does not get any smaller as time goes on.</h2>
 			</div>
 		</React.Fragment>
 	);
