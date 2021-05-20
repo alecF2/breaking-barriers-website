@@ -25,6 +25,8 @@
     margin: auto;
 }
 
-.mission-learn-more {
-    border-radius: 2px;
+.learn-more{
+    border-radius: 8px;
+    background-color: #FFBD59;
+    border: none;
 }
