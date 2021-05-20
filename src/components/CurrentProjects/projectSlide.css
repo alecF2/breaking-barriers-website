@@ -7,10 +7,11 @@
 
 }
 
-.image {
-    width: 100%;
-    height: 50%;
+.CPimage {
+    height: 25%;
+    display: flex;
     justify-content: center;
+    align-self: center;
     border-radius: 10px;
 }
 
