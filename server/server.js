@@ -29,7 +29,7 @@ app.get('/', (req, res) => {
 app.post("/contact_us", (req, res) => {
   // judge the score
   const mailOptions = {
-    to: "ly.devin.177@gmail.com",
+    to: process.env.SUPPORT_EMAIL,
     subject: `${req.body.name}: ${req.body.subject}`,
     replyTo: req.body.email
   }
