@@ -12,6 +12,9 @@ const Home = () =>{
 				<h2></h2>
 			</div>
 			</div>
+			<div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus.</p>
+			</div>
 		</React.Fragment>
 	);
 }
