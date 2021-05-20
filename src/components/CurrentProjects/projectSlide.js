@@ -29,11 +29,7 @@ const ProjectSlide = ({ slides }) =>{
 					<div className={index === current ? 'slide active' : 'slide'}
 					key={index}>
             		{index === current && (
-						<div>
-							<img className='image' src={slide.image} alt='travel image' className='image' />
-							<p> {slide.text} </p>
-						</div>
-              		
+              		<img src={slide.image} alt='travel image' className='image' />
             		)}
          			</div>
 				);
