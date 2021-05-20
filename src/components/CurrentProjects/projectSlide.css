@@ -24,9 +24,11 @@
 }
 
 .CPCaption {
-    max-width: 80%;
+    max-width: 50%;
     border-radius: 10px;
     text-align: center;
+    border: 20px;
+
     color: black;
     font: Arial;
     font-size: 25px;
