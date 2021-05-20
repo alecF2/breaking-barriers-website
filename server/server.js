@@ -1,12 +1,15 @@
 const express = require('express');
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000;
+const path = require('path');
 
 const fetch = require('node-fetch');
 
 require('dotenv').config();
 
 app.use(express.json());
+
+app.use(express.static(path.join(__dirname, "..", "build")));
 
 // instance of nodemailer
 const nodemailer = require("nodemailer");
@@ -20,14 +23,15 @@ let transporter = nodemailer.createTransport({
   }
 });
 
-app.use(express.static('./assets'));
+// app.use(express.static('./assets'));
 
-app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/index.html');
-});
+// app.get('/', (req, res) => {
+//     res.sendFile(__dirname + '/index.html');
+// });
 
 app.post("/contact_us", (req, res) => {
   // judge the score
+  // Change it so front end only does 1 API call
   const mailOptions = {
     to: process.env.SUPPORT_EMAIL,
     subject: `${req.body.name}: ${req.body.subject}`,
@@ -74,6 +78,10 @@ app.post("/captcha", (req, res) => {
   }).then(response => response.json()).then(data => {
     console.log(data);
   })
+});
+
+app.use((req, res, next) => {
+  res.sendFile(path.join(__dirname, "..", "build", "index.html"));
 });
 
 app.listen(port, () => {
