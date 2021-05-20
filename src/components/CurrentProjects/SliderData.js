@@ -17,5 +17,5 @@ export const SliderData = [
         titleText: 'Arts & Crafts:',
         subtitle: 'Breaking Barriers have partnered with local facilities to deliver arts and crafts to residents at senior centers.',
         imgCaption: 'Our volunteers are very talented in arts and crafts, ranging from painting to origami. With these various skills, we have developed the Arts & Crafts program where our volunteers teach or present a DIY/Arts program to elderly adults staying at a senior living center. We typically host these per request of the facility and based on the resources they are able to provide. During COVID-19, we have delivered live Zoom presentations that include live poetry/storytelling produced and presented by our volunteers'
-    }
+    },
 ]

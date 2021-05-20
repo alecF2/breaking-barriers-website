@@ -34,8 +34,8 @@ const ProjectSlide = ({ slides }) =>{
 							<h2 className='CPTitle'> {slide.titleText} </h2>
 							<p> {slide.subtitle}  </p>
 							<p className='CPCaption'> {slide.imgCaption} </p>
-						</div>
-              		
+						</div>>
+
             		)}
          			</div>
 				);

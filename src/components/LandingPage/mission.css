@@ -1,12 +1,30 @@
 .mission-main{
     color: #37392e;
     font-family: 'Poppins', sans-serif;
-    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
     font-size: 12pt;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .mission-main h1{
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 28pt;
-    margin-left: 35%;
-}   
+    color: #000000;
+} 
+
+.mission-main h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    width: 279px;
+    margin: auto;
+}
+
+.mission-learn-more {
+    border-radius: 2px;
+}
