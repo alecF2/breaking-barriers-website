@@ -35,7 +35,6 @@ const ProjectSlide = ({ slides }) =>{
 							<p className='CPsubtitle'> {slide.CPsubtitle}  </p>
 							<p className='CPCaption'> {slide.CPCaption} </p>
 						</div>
-              		
 
             		)}
          			</div>

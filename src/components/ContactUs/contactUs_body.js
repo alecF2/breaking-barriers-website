@@ -7,7 +7,7 @@ const ContactUs_body = () =>{
   const [formData, setFormData] = useState({
     Name: '',
     email: '',
-    comment: '',
+    message: '',
   })
 
   // Updates formData whenever textfields are changed
@@ -23,7 +23,20 @@ const ContactUs_body = () =>{
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(formData);
-    // do something with form data here.
+    
+    // POST request to server:
+
+    // fetch('/contact_us', {
+    //   method: 'POST',
+    //   headers: { 'Content-Type': 'application/json' },
+    //   body: JSON.stringify({
+    //     name: formData.Name,
+    //     email: formData.email,
+    //     subject: "Test Subject",
+    //     score: "1.0",
+    //     message: formData.message
+    //   })
+    // })
   }
 
 	return (
@@ -48,11 +61,11 @@ const ContactUs_body = () =>{
               <label>
                 COMMENT:
                 <br/>
-                <textarea value={formData.comment} type="text" name="comment" onChange={handleChange}></textarea>
+                <textarea value={formData.message} type="text" name="message" onChange={handleChange}></textarea>
               </label>
                 <br/>
               {/* button should be disabled until all 3 fields are filled */}
-              <button disabled={!(formData.Name && formData.email && formData.comment)}onClick={handleSubmit}>Submit</button>
+              <button disabled={!(formData.Name && formData.email && formData.message)}onClick={handleSubmit}>Submit</button>
             </form>
           </div>
         </div>
