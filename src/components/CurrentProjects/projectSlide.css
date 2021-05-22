@@ -7,10 +7,32 @@
 
 }
 
-.testimg {
-    width: 100%;
-    height: 600px;
+.CPimage {
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
     border-radius: 10px;
+}
+
+.CPTitle {
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    font: Arial;
+    font-size: 50px;
+}
+
+.CPCaption {
+    max-width: 50%;
+    border-radius: 10px;
+    text-align: center;
+    border: 20px;
+
+    color: black;
+    font: Arial;
+    font-size: 25px;
 }
 
 .right-arrow {

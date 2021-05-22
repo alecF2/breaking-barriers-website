@@ -1,12 +1,27 @@
 .barriers-who-we-are{
-    color: #37392e;
-    font-family: 'Poppins', sans-serif;
-    justify-content: center;
-    font-size: 12pt;
+    color: #37392E;
+    font-family: 'Poppins';
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
 }
 
 .barriers-who-we-are h1{
+    color: #000000;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 28pt;
-    margin-left: 40%;
 }   
+
+.barriers-who-we-are h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    width: 74.4%;
+    margin: auto;
+}
