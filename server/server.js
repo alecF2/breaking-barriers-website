@@ -9,7 +9,10 @@ require('dotenv').config();
 
 app.use(express.json());
 
-app.use(express.static(path.join(__dirname, "assets")));
+app.use(express.static(path.join(__dirname, "..", "build")));
+// for dev
+// app.use(express.static(path.join(__dirname, "assets")));
+
 
 // instance of nodemailer
 const nodemailer = require("nodemailer");
