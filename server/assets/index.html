@@ -15,7 +15,13 @@
               fetch('/captcha', {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
-                body: JSON.stringify({token: token})
+                body: JSON.stringify({
+                  token: token,
+                  email: "ly.devin.177@gmail.com",
+                  name: "Devin",
+                  subject: "Testing from one function",
+                  message: "Hello, I am testing 1 api route"
+                })
               }).catch((err) => {
                 console.log(err);
               });
