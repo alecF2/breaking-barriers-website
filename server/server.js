@@ -26,8 +26,6 @@ let transporter = nodemailer.createTransport({
   }
 });
 
-// app.use(express.static('./assets'));
-
 app.post("/contact_us", (req, res) => {
   // Sending token to get verified
   fetch(`https://www.google.com/recaptcha/api/siteverify?secret=${process.env.SECRET_CAPTCHA_KEY}&response=${req.body.token}`, {
