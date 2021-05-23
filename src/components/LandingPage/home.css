@@ -1,9 +1,10 @@
+.barriers-home {
+    position: relative;
+}
+
 .home-img {
-    margin: auto;
-    margin-bottom: 8%;
-    display: block;
-    text-align: center;
     width: 100%;
+    position: absolute;
     opacity: 0.5;
 }
 
@@ -13,4 +14,10 @@
     align-items: center;
     background-color: transparent;
     color: #37392e;
+    position: absolute;
+    z-index: 100;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
 }
+
