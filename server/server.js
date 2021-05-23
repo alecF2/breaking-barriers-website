@@ -29,7 +29,7 @@ let transporter = nodemailer.createTransport({
 //     res.sendFile(__dirname + '/index.html');
 // });
 
-app.post("/captcha", (req, res) => {
+app.post("/contact_us", (req, res) => {
   // Sending token to get verified
   fetch(`https://www.google.com/recaptcha/api/siteverify?secret=${process.env.SECRET_CAPTCHA_KEY}&response=${req.body.token}`, {
     method: 'POST',
