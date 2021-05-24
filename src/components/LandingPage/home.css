@@ -1,23 +1,21 @@
+
 .barriers-home {
     position: relative;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     color: 24333F;
+    text-align: center;
 }
 
 .home-img {
     width: 100%;
-    position: absolute;
     opacity: 0.5;
 }
 
 .overlay-text {
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    text-align: center;
     color: #24333f;
     font-style: normal;
     font-weight: 900;
     font-size: 25px;
     line-height: 37px;
-    display: flex;
-    align-items: center;
 }
