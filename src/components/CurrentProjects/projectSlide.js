@@ -22,8 +22,8 @@ const ProjectSlide = ({ slides }) =>{
 
 	return(
 		<section className="slider">
-			{/* <IoIosArrowBack className="left-arrow" onClick={prevSlide}/>
-			<IoIosArrowForward className="right-arrow" onClick={nextSlide}/> */}
+			<IoIosArrowBack className="left-arrow" onClick={prevSlide}/>
+			<IoIosArrowForward className="right-arrow" onClick={nextSlide}/>
 			
 			{SliderData.map((slide, index) => {
 
@@ -34,9 +34,9 @@ const ProjectSlide = ({ slides }) =>{
 						<div className='projectInfo'>
 							<img className='CPimage' src={slide.CPimage} alt='travel image'/>
 							<h1 className='CPTitle'> {slide.titleText} </h1>
-							<h2 className='CPsubtitle'> {slide.CPsubtitle}  </h2>
+							<p className='CPsubtitle'> {slide.CPsubtitle}  </p>
 							<p className='CPCaption'> {slide.CPCaption} </p>
-							<IoIosArrowDown className='down-arrow' onClick={nextSlide}/>
+							{/* <IoIosArrowDown className='down-arrow'/> */}
 						</div>
             		)}
 					
