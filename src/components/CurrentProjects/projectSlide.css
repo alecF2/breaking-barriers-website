@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
 .slider {
     position: relative;
     height: 50%;
@@ -25,8 +26,8 @@
     width: 100%;
     align-self: center;
     text-align: center;
-    color: black;
-    font: Arial;
+    color: #1D537B;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 25px;
 }
 .CPsubtitle {
