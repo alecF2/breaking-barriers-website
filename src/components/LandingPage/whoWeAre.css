@@ -55,48 +55,6 @@
     transform: translateY(4px);
   }
 
-.barriers-tidbits-about-us{
-    color: #24333F;
-    font-family: 'Poppins';
-    margin-left: 10%;
-    margin-right: 10%;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.barriers-tidbits-about-us h1{
-    text-align: center;
-    color: #1D537B;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 28pt;
-}
-
-.barriers-tidbits-about-us h2{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 21px;
-    align-items: center;
-    width: 74.4%;
-    margin: auto;
-}
-
-.barriers-tidbits-about-us p{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 21px;
-    align-items: center;
-    width: 74.4%;
-    margin: auto;
-}
-
 .first{
     position: absolute;
     left: 0%;
