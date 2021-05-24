@@ -30,14 +30,14 @@
     font-size: 25px;
 }
 .CPsubtitle {
-    max-width: 50%;
+    max-width: 100%;
     padding-left: 25px;
     text-align: left;
     border: 10px;
 
     color: black;
     font: Arial;
-    font-size: 14px;
+    font-size: 15px;
 }
 .CPCaption{
     align-self: center;

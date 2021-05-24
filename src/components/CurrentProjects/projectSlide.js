@@ -1,8 +1,8 @@
 import './projectSlide.css';
 import {SliderData} from './SliderData.js'; 
 import React, {Component, useState} from 'react';
-import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
-import {IoIosArrowDown} from 'react-icons/io'
+//import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
+import {IoIosArrowForward, IoIosArrowBack,IoIosArrowDown} from 'react-icons/io'
 
 const ProjectSlide = ({ slides }) =>{
 	const [current, setCurrent] = useState(0);
@@ -22,8 +22,8 @@ const ProjectSlide = ({ slides }) =>{
 
 	return(
 		<section className="slider">
-			{/* <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide}/>
-			<FaArrowAltCircleRight className="right-arrow" onClick={nextSlide}/> */}
+			{/* <IoIosArrowBack className="left-arrow" onClick={prevSlide}/>
+			<IoIosArrowForward className="right-arrow" onClick={nextSlide}/> */}
 			
 			{SliderData.map((slide, index) => {
 
