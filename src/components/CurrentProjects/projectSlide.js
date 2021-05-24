@@ -36,7 +36,7 @@ const ProjectSlide = ({ slides }) =>{
 							<h1 className='CPTitle'> {slide.titleText} </h1>
 							<h2 className='CPsubtitle'> {slide.CPsubtitle}  </h2>
 							<p className='CPCaption'> {slide.CPCaption} </p>
-							<IoIosArrowDown className='down-arrow'/>
+							<IoIosArrowDown className='down-arrow' onClick={nextSlide}/>
 						</div>
             		)}
 					
