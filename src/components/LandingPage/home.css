@@ -1,5 +1,7 @@
 .barriers-home {
     position: relative;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: 24333F;
 }
 
 .home-img {
@@ -11,7 +13,7 @@
 .overlay-text {
     text-align: center;
     background-color: transparent;
-    color: #37392e;
+    color: 24333F;
     position: absolute;
     z-index: 100;
     font-size: 24px;
