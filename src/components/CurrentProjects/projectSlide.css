@@ -11,16 +11,11 @@
 }
 
 .CPimage {
-<<<<<<< HEAD
-    height: 10%;
-    display: flex;
-=======
     max-height: 800px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width:75%;
->>>>>>> aed9b110aba75f2078824c2101fff439d58e2610
     justify-content: center;
     align-self: center;
     border-radius: 5%;
@@ -42,10 +37,6 @@
 
     color: black;
     font: Arial;
-<<<<<<< HEAD
-    font-size: 25px;
-    padding-bottom: 100px;
-=======
     font-size: 14px;
 }
 .CPCaption{
@@ -58,7 +49,6 @@
     font: Arial;
     font-size: 15px;
     padding-bottom: 30px;
->>>>>>> aed9b110aba75f2078824c2101fff439d58e2610
 }
 
 .right-arrow {
@@ -110,7 +100,6 @@
 }
 
 .down-arrow {
-    position: absolute;
     top: 50%;
     right: 32px;
     font-size: 3rem;

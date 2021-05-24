@@ -24,7 +24,7 @@ const ProjectSlide = ({ slides }) =>{
 		<section className="slider">
 			{/* <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide}/>
 			<FaArrowAltCircleRight className="right-arrow" onClick={nextSlide}/> */}
-			<IoIosArrowDown className='down-arrow'/>
+			
 			{SliderData.map((slide, index) => {
 
 				return (
@@ -36,9 +36,10 @@ const ProjectSlide = ({ slides }) =>{
 							<h1 className='CPTitle'> {slide.titleText} </h1>
 							<h2 className='CPsubtitle'> {slide.CPsubtitle}  </h2>
 							<p className='CPCaption'> {slide.CPCaption} </p>
+							<IoIosArrowDown className='down-arrow'/>
 						</div>
-
             		)}
+					
          			</div>
 				);
 			})}
