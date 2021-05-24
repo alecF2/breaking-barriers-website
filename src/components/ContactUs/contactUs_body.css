@@ -26,34 +26,76 @@
 }
 
 .contactFormContainer > form > button {
-  font-family: 'Poppins', sans-serif;
-  width: 97px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: bold;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  float: right;
+  margin: 7px 0 20px 0;
+  width: 90px;
   height: 30px;
   border-radius: 20px;
   border: none;
-  background-color: #C4C4C4;
+  background-color: #FFBD59;
+}
+
+.contactFormContainer > H1 {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: #1D537B;
+  font-size: 28pt;
+  margin: 30px 0 -20px 0;
+  padding: 0;
 }
 
 textarea {
   font-family: 'Poppins', sans-serif;
+  border-radius: 7px;
   height: 142px;
-  width: 273px;
+  width: 293px;
   border: solid black 2px;
   resize: none;
 }
 
  input {
   font-family: 'Poppins', sans-serif;
-  width: 273px;
+  border-radius: 7px;
+  width: 293px;
   height: 33px;
-  margin-bottom: 25px;
   border: solid black 2px;
+  margin-bottom: 7px;
 }
 
-.contactFormContainer > H1 {
-  font-family: 'M PLUS Rounded 1c', sans-serif;
-  font-size: 28pt;
-  margin: 0;
-  padding: 0;
-  margin-bottom: -20px;
+.secondInput {
+  margin-bottom: 24px;
 }
+
+@media screen and (min-width: 1000px) {
+  input {
+    width: 864px;
+    height: 69px;
+    font-size: 32px;
+  }
+  textarea {
+    width: 864px;
+    height: 215px;
+    font-size: 18px;
+  }
+  .contactFormContainer > p {
+    font-size: 24px;
+  }
+  .contactFormContainer > H1 {
+    font-size: 64px;
+    margin: 126px 0 -20px 0;
+  }
+  .contactFormContainer > form > button {
+    width: 173px;
+    height: 52px;
+    margin: 7px 0 87px 0;
+    font-size: 24px;
+    margin-top: 15px;
+    float: none;
+  }
+  label {
+    font-size: 24px;
+  }
+}
+

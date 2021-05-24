@@ -52,20 +52,43 @@ const ContactUs_body = () =>{
             <form>
               <label>
                 NAME:
-                <input value={formData.Name} type="text" name="Name" onChange={handleChange}/>
+                <input
+                  value={formData.Name}
+                  type="text"
+                  name="Name"
+                  onChange={handleChange}
+                />
               </label>
               <label>
                 EMAIL:
-                <input value={formData.email} type="text" name="email" onChange={handleChange}/>
+                <input
+                  value={formData.email}
+                  type="text"
+                  name="email"
+                  onChange={handleChange}
+                  className="secondInput"
+                />
               </label>
               <label>
                 COMMENT:
-                <br/>
-                <textarea value={formData.message} type="text" name="message" onChange={handleChange}></textarea>
+                <br />
+                <textarea
+                  value={formData.message}
+                  type="text"
+                  name="message"
+                  onChange={handleChange}
+                ></textarea>
               </label>
-                <br/>
+              <br />
               {/* button should be disabled until all 3 fields are filled */}
-              <button disabled={!(formData.Name && formData.email && formData.message)}onClick={handleSubmit}>Submit</button>
+              <button
+                disabled={
+                  !(formData.Name && formData.email && formData.message)
+                }
+                onClick={handleSubmit}
+              >
+                Submit
+              </button>
             </form>
           </div>
         </div>
