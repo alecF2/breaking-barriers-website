@@ -8,7 +8,7 @@
 }
 
 .CPimage {
-    height: 25%;
+    height: 10%;
     display: flex;
     justify-content: center;
     align-self: center;
@@ -33,6 +33,7 @@
     color: black;
     font: Arial;
     font-size: 25px;
+    padding-bottom: 100px;
 }
 
 .right-arrow {
@@ -60,10 +61,36 @@
 .slide {
     opacity: 0;
     transition-duration: 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .slide.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     opacity: 1;
     transition-duration: 1s;
     transform: scale(1.08);
+}
+
+.projectInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.down-arrow {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: grey;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
 }
