@@ -96,3 +96,20 @@
     width: 74.4%;
     margin: auto;
 }
+
+.first{
+    position: absolute;
+    left: 0%;
+}
+
+.circles-flex{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.second{
+    position: absolute;
+    top: auto;
+    left: 0%;
+}

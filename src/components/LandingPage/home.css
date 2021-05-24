@@ -11,35 +11,13 @@
 }
 
 .overlay-text {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     text-align: center;
-    background-color: transparent;
-    color: 24333F;
-    position: absolute;
-    z-index: 100;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
+    color: #24333f;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
 }
-
-.circle3{
-    background: #ffbd59;
-    height: 90px;
-    width: 45px;
-    border-radius: 90px 0 0 90px;
-    opacity: 50%; 
-    position: absolute;
-    left: 347.02;
-    right:0;
-}
-
-.circle4{
-    background: #faad98;
-    height: 90px;
-    width: 45px;
-    border-radius: 90px 0 0 90px;
-    opacity: 56%;
-    position: absolute;
-    left: 347.02;
-    right:0;
-}
-
