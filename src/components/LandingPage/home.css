@@ -19,3 +19,25 @@
     text-align: center;
 }
 
+.circle3{
+    background: #ffbd59;
+    height: 90px;
+    width: 45px;
+    border-radius: 90px 0 0 90px;
+    opacity: 50%; 
+    position: absolute;
+    left: 347.02;
+    right:0;
+}
+
+.circle4{
+    background: #faad98;
+    height: 90px;
+    width: 45px;
+    border-radius: 90px 0 0 90px;
+    opacity: 56%;
+    position: absolute;
+    left: 347.02;
+    right:0;
+}
+
