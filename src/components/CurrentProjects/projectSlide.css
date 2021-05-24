@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
+
 .slider {
     position: relative;
     height: 50%;
@@ -48,13 +49,13 @@
     color: black;
     font: Arial;
     font-size: 15px;
-     padding-bottom: 30px; 
+     padding-bottom: 50px; 
 }
 
 .right-arrow {
     position: absolute;
-    top: 50%;
-    right: 5px;
+    bottom: 1px;
+    right: 1%;
     font-size: 3rem;
     color: grey;
     z-index: 10;
@@ -64,8 +65,8 @@
 
 .left-arrow {
     position: absolute;
-    top: 50%;
-    left: 5px;
+    bottom: 1px;
+    left: 1%;
     font-size: 3rem;
     color: grey;
     z-index: 10;
