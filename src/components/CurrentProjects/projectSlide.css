@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 .slider {
     position: relative;
@@ -37,7 +38,7 @@
     border: 10px;
     margin: 0;
     color: black;
-    font: Arial;
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
 }
 .CPCaption{
@@ -47,11 +48,23 @@
     text-align: left;
     border: 10px;
     color: black;
-    font: Arial;
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
      padding-bottom: 50px; 
 }
+.CPBimg1 {
+    max-height: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:75%;
+    justify-content: Left;
+    align-self: left;
+    border-radius: 5%;
+}
+.CPBimg2 {
 
+}
 .right-arrow {
     position: absolute;
     bottom: 1px;
