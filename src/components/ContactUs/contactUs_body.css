@@ -71,6 +71,7 @@ textarea {
 @media screen and (min-width: 1000px) {
   input {
     width: 864px;
+    margin-bottom: 30px;
     height: 69px;
     font-size: 32px;
   }
@@ -89,7 +90,7 @@ textarea {
   .contactFormContainer > form > button {
     width: 173px;
     height: 52px;
-    margin: 7px 0 87px 0;
+    margin: 7px 0 87px 700px;
     font-size: 24px;
     margin-top: 15px;
     float: none;
