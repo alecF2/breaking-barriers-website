@@ -103,15 +103,23 @@ textarea {
     padding: 0;
   }
   .CUGreen {
-    top: 20vh;
-    left: 94vw;
+    top: 268px;
+    left: 1802px;
   }
   .CUBlueHalf {
     top: 68%;
   }
+  .CUBlueFull {
+    top: 750px;
+    left: 1648px;
+  }
   .CUOrange {
-    top: 52em;
-    left: 80%;
+    top: 825px;
+    left: 1671px;
+  }
+  .CUPink {
+    top: 950px;
+    left: 319px;
   }
   .contactFormContainer > p {
     font-size: 24px;

@@ -42,9 +42,9 @@ const ContactUs_body = () => {
     <React.Fragment>
       <div className="barriers-contact-us-body">
         <img className="CUBubbles CUGreen" src="images/CUEllipse22.svg" />
-        {/* <img className="CUBubbles" src="images/CUEllipse59.svg"/> */}
-        {/* <img className="CUBubbles" src="images/CUEllipse69-2.svg"/> */}
-        {/* <img className="CUBubbles CUBlueHalf" src="images/CUEllipse69.svg" /> */}
+        <img className="CUBubbles CUPink" src="images/CUEllipse59.svg"/>
+        <img className="CUBubbles CUBlueFull" src="images/CUEllipse69-2.svg"/>
+        <img className="CUBubbles CUBlueHalf" src="images/CUEllipse69.svg" />
         <img className="CUBubbles CUOrange" src="images/CUEllipse70.svg" />
         <div className="contactContainer">
           <div className="contactFormContainer">
