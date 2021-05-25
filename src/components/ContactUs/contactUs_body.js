@@ -1,21 +1,20 @@
-import './contactUs_body.css';
+import "./contactUs_body.css";
+import React, { useEffect, useState } from "react";
 
-import React, { useEffect, useState } from 'react';
-
-const ContactUs_body = () =>{
+const ContactUs_body = () => {
   // state for keeping track of form data
   const [formData, setFormData] = useState({
-    Name: '',
-    email: '',
-    message: '',
-  })
+    Name: "",
+    email: "",
+    message: "",
+  });
 
   // Updates formData whenever textfields are changed
   const handleChange = (e) => {
     setFormData({
       ...formData,
 
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     });
   };
 
@@ -23,7 +22,7 @@ const ContactUs_body = () =>{
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(formData);
-    
+
     // POST request to server:
 
     // fetch('/contact_us', {
@@ -37,11 +36,16 @@ const ContactUs_body = () =>{
     //     message: formData.message
     //   })
     // })
-  }
+  };
 
-	return (
+  return (
     <React.Fragment>
       <div className="barriers-contact-us-body">
+        <img className="CUBubbles CUGreen" src="images/CUEllipse22.svg" />
+        {/* <img className="CUBubbles" src="images/CUEllipse59.svg"/> */}
+        {/* <img className="CUBubbles" src="images/CUEllipse69-2.svg"/> */}
+        {/* <img className="CUBubbles CUBlueHalf" src="images/CUEllipse69.svg" /> */}
+        <img className="CUBubbles CUOrange" src="images/CUEllipse70.svg" />
         <div className="contactContainer">
           <div className="contactFormContainer">
             <h1>Contact Us</h1>
@@ -95,6 +99,6 @@ const ContactUs_body = () =>{
       </div>
     </React.Fragment>
   );
-}
+};
 
 export default ContactUs_body;

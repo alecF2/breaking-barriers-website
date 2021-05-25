@@ -46,6 +46,10 @@
   padding: 0;
 }
 
+.CUBubbles {
+  display:none;
+}
+
 textarea {
   font-family: 'Poppins', sans-serif;
   border-radius: 7px;
@@ -67,8 +71,19 @@ textarea {
 .secondInput {
   margin-bottom: 24px;
 }
-
-@media screen and (min-width: 1000px) {
+@media screen and (min-width:768px) {
+  .contactFormContainer > form > button {
+    float: none;
+    margin: 7px 0 87px 320px;
+  }
+  input {
+    width: 400px;
+  }
+  textarea {
+    width: 400px;
+  }
+}
+@media screen and (min-width: 1024px) {
   input {
     width: 864px;
     margin-bottom: 30px;
@@ -79,6 +94,24 @@ textarea {
     width: 864px;
     height: 215px;
     font-size: 18px;
+  }
+  .CUBubbles {
+    display:block;
+    position: absolute;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+  }
+  .CUGreen {
+    top: 20vh;
+    left: 94vw;
+  }
+  .CUBlueHalf {
+    top: 68%;
+  }
+  .CUOrange {
+    top: 52em;
+    left: 80%;
   }
   .contactFormContainer > p {
     font-size: 24px;
