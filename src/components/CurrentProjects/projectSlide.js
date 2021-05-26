@@ -21,6 +21,7 @@ const ProjectSlide = ({ slides }) =>{
 	}
 
 	return(
+		<div className="CPSlideDiv">
 		<section className="slider">
 			<IoIosArrowBack className="left-arrow" onClick={prevSlide}/>
 			<IoIosArrowForward className="right-arrow" onClick={nextSlide}/>
@@ -46,6 +47,7 @@ const ProjectSlide = ({ slides }) =>{
 				);
 			})}
 		</section>
+		</div>
 	)
 }
 
