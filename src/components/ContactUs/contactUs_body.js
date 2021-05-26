@@ -24,28 +24,28 @@ const ContactUs_body = () => {
     console.log(formData);
 
     // POST request to server:
-
-    // fetch('/contact_us', {
-    //   method: 'POST',
-    //   headers: { 'Content-Type': 'application/json' },
-    //   body: JSON.stringify({
-    //     name: formData.Name,
-    //     email: formData.email,
-    //     subject: "Test Subject",
-    //     score: "1.0",
-    //     message: formData.message
-    //   })
-    // })
+    fetch('/contact_us', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        name: formData.Name,
+        email: formData.email,
+        subject: "Test Subject",
+        score: "1.0",
+        message: formData.message
+      })
+    })
+    alert("Message sent!");
+    setFormData({
+      Name: "",
+      email: "",
+      message: "",
+    });
   };
 
   return (
     <React.Fragment>
       <div className="barriers-contact-us-body">
-        <img className="CUBubbles CUGreen" src="images/CUEllipse22.svg" />
-        <img className="CUBubbles CUPink" src="images/CUEllipse59.svg"/>
-        <img className="CUBubbles CUBlueFull" src="images/CUEllipse69-2.svg"/>
-        <img className="CUBubbles CUBlueHalf" src="images/CUEllipse69.svg" />
-        <img className="CUBubbles CUOrange" src="images/CUEllipse70.svg" />
         <div className="contactContainer">
           <div className="contactFormContainer">
             <h1>Contact Us</h1>
@@ -81,6 +81,7 @@ const ContactUs_body = () => {
                   type="text"
                   name="message"
                   onChange={handleChange}
+                  maxLength="2000"
                 ></textarea>
               </label>
               <br />
