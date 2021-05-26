@@ -1,0 +1,87 @@
+.barriers-current-proj-body{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 0 auto;
+	background-image: url("forestbg.svg");
+	height: 100vw;
+	margin-top: -100px; 
+	background-repeat: no-repeat;
+}
+
+.current-proj-pic{
+	margin: 0 auto;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 500px; 
+	width: 50vw;
+}
+
+#cp-cat{
+	position: absolute;
+	width: 40vw;
+}
+
+#cp-frame{
+	margin-top: 2px;
+	width: 40vw;
+	margin-right: 2vw;
+	z-index: 5;
+
+}
+
+.current-proj-text{
+	margin: 0 auto;
+	margin-bottom: 500px; 
+	text-align: left;
+	margin-left:-125px;
+}
+
+.current-proj-text h1{
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 45px;
+	font-weight: bold;
+	color: #1D537B;
+}
+
+.current-proj-text a{
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+}
+
+.mobile{
+	display: none;
+}
+
+@media (max-width: 887px){
+	.current-proj-text{
+		margin-left:0px;
+		margin-bottom: 0px; 
+	}
+
+	.mobile{
+		display: flex;
+	}
+
+	.web{
+		display: none;
+	}
+
+	.current-proj-pic{
+		margin-bottom: 0px; 
+	}
+	.barriers-current-proj-body{
+		height: 150vw;
+		margin-top: -300px; 
+		background-image: url("forestbg.svg");
+	}
+
+	.current-proj-text{
+		align-items: center;
+
+	}
+	#cp-cat, #cp-frame{
+		width: 70vw;
+	}
+}

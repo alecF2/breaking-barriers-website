@@ -12,7 +12,7 @@ const CurrentProjects = () => {
 		<React.Fragment>
 			<div className="currentProjects-barriers">
 				<Navbar />
-				{/* <CurrentProjects_body /> */}
+				<CurrentProjects_body />
 				<ProjectSlide slides={SliderData}/>
 				<Footer />
 			</div>
