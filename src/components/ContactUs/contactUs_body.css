@@ -37,6 +37,9 @@
   border: none;
   background-color: #FFBD59;
 }
+.contactFormContainer > form > button:hover {
+  cursor: pointer;
+}
 
 .contactFormContainer > H1 {
   font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -89,44 +92,20 @@ textarea {
     margin-bottom: 30px;
     height: 69px;
     font-size: 32px;
+    border: solid black 1px;
   }
   textarea {
     width: 864px;
     height: 215px;
     font-size: 18px;
-  }
-  .CUBubbles {
-    display:block;
-    position: absolute;
-    z-index: -1;
-    margin: 0;
-    padding: 0;
-  }
-  .CUGreen {
-    top: 268px;
-    left: 1802px;
-  }
-  .CUBlueHalf {
-    top: 68%;
-  }
-  .CUBlueFull {
-    top: 750px;
-    left: 1648px;
-  }
-  .CUOrange {
-    top: 825px;
-    left: 1671px;
-  }
-  .CUPink {
-    top: 950px;
-    left: 319px;
+    border: solid black 1px;
   }
   .contactFormContainer > p {
     font-size: 24px;
   }
   .contactFormContainer > H1 {
     font-size: 64px;
-    margin: 126px 0 -20px 0;
+    margin: 115px 0 -20px 0;
   }
   .contactFormContainer > form > button {
     width: 173px;
