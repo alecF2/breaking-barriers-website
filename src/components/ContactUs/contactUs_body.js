@@ -4,18 +4,14 @@ import React, { useState } from "react";
 import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
 
 const ContactUs_body = () => {
+
   const { executeRecaptcha } = useGoogleReCaptcha();
-
-import React, { useEffect, useState } from "react";
-
-const ContactUs_body = () => {
 
   // state for keeping track of form data
   const [formData, setFormData] = useState({
     Name: "",
     email: "",
     message: "",
-
     subject: "Breaking Barriers Inquiry",
     token: "",
   });
@@ -38,38 +34,16 @@ const ContactUs_body = () => {
     }
     formData.token = await executeRecaptcha();
     // POST request to server:
-    fetch('/contact_us', {
+    await fetch('/contact_us', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(formData)
-    })
+    });
     setFormData({
       Name: "",
       email: "",
       message: "",
       subject: "Breaking Barriers Inquiry",
-    });
-  };
-
-    console.log(formData);
-
-    // POST request to server:
-    fetch('/contact_us', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        name: formData.Name,
-        email: formData.email,
-        subject: "Test Subject",
-        score: "1.0",
-        message: formData.message
-      })
-    })
-    alert("Message sent!");
-    setFormData({
-      Name: "",
-      email: "",
-      message: "",
     });
   };
 
