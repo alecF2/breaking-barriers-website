@@ -10,6 +10,7 @@ const ContactUs_body = () => {
     Name: "",
     email: "",
     message: "",
+    subject: "Breaking Barriers Inquiry",
     token: "",
   });
 
@@ -25,23 +26,21 @@ const ContactUs_body = () => {
   // Do stuff with the inputs
   const handleSubmit = async(e) => {
     e.preventDefault();
-    console.log(formData);
     if(!executeRecaptcha) {
       console.log("Execute recaptcha not yet available");
     }
     formData.token = await executeRecaptcha();
-    console.log(formData.token);
     // POST request to server:
     fetch('/contact_us', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(formData)
     })
-    alert("Message sent!");
     setFormData({
       Name: "",
       email: "",
       message: "",
+      subject: "Breaking Barriers Inquiry",
     });
   };
 

@@ -33,9 +33,9 @@ app.post("/contact_us", (req, res) => {
     headers: {'Content-Type':'application/json'}
   }).then(response => response.json()).then(data => {
     const mailOptions = {
-      from: `${req.body.name} [${req.body.email}] <process.env.EMAIL_USER>`,
+      from: `${req.body.Name} [${req.body.email}] <process.env.EMAIL_USER>`,
       to: process.env.SUPPORT_EMAIL,
-      subject: `${req.body.subject}`,
+      subject: `${req.body.subject} from ${req.body.Name}`,
       replyTo: req.body.email
     }
   
