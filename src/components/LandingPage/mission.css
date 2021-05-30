@@ -1,12 +1,113 @@
 .mission-main{
     color: #37392e;
     font-family: 'Poppins', sans-serif;
-    justify-content: center;
+    justify-content: space-evenly;
     font-size: 12pt;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .mission-main h1{
+    text-align: center;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 28pt;
-    margin-left: 35%;
-}   
+    color: #1D537B;
+} 
+
+.mission-main h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    width: 74.4%;
+    margin: auto;
+}
+
+
+.barriers-tidbits-about-us{
+    color: #24333F;
+    font-family: 'Poppins';
+    margin-left: 10%;
+    margin-right: 10%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.barriers-tidbits-about-us h1{
+    text-align: center;
+    color: #1D537B;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 28pt;
+}
+
+.barriers-tidbits-about-us h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    width: 74.4%;
+    margin: auto;
+}
+
+.barriers-tidbits-about-us p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    width: 74.4%;
+    margin: auto;
+}
+
+
+
+.mission-main button {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 16;
+    font-style: bold;
+    color: #24333F;
+    cursor: pointer;
+    border-radius: 10px;
+    width: auto;
+    text-align: justify;
+    background-color: #FFBD59;
+    box-shadow: 0 1px black;
+  }
+  
+.mission-main button:hover {
+    background-color: #ed9d26;
+    border-radius: 10px;
+    width: auto;
+    text-align: justify;
+    box-shadow: 0 2px black;
+}
+
+.button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.circle {
+    height:90px;
+    width:45px;
+    border-radius: 0 90px 90px 0;
+    background:#ffbd59;
+    opacity: 50%;
+}
+
+.circle2{
+    background-color: #9fd3fa;
+    height:90px;
+    width:45px;
+    border-radius: 0 90px 90px 0;
+    opacity: 50%;
+}

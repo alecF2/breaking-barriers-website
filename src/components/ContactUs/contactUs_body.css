@@ -69,6 +69,58 @@ textarea {
   height: 33px;
   border: solid black 2px;
   margin-bottom: 7px;
+
+}
+
+.secondInput {
+  margin-bottom: 24px;
+}
+@media screen and (min-width:768px) {
+  .contactFormContainer > form > button {
+    float: none;
+    margin: 7px 0 87px 320px;
+  }
+  input {
+    width: 400px;
+  }
+  textarea {
+    width: 400px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  input {
+    width: 864px;
+    margin-bottom: 30px;
+    height: 69px;
+    font-size: 32px;
+    border: solid black 1px;
+  }
+  textarea {
+    width: 864px;
+    height: 215px;
+    font-size: 18px;
+    border: solid black 1px;
+  }
+  .contactFormContainer > p {
+    font-size: 24px;
+  }
+  .contactFormContainer > H1 {
+    font-size: 64px;
+    margin: 115px 0 -20px 0;
+  }
+  .contactFormContainer > form > button {
+    width: 173px;
+    height: 52px;
+    margin: 7px 0 87px 700px;
+    font-size: 24px;
+    margin-top: 15px;
+    float: none;
+  }
+  label {
+    font-size: 24px;
+  }
+}
+
 }
 
 .secondInput {
