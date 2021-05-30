@@ -2,11 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Ul = styled.ul`
-  margin-top: 0px;
+	margin-top: 0px;
   list-style: none;
   display: flex;
   flex-flow: row nowrap;
   z-index: 22;
+
   li {
     padding: 30px 25px;
   }
@@ -30,7 +31,7 @@ const Ul = styled.ul`
     transform: ${({ open }) => open ? 'translateY(0)' : 'translateY(-150%)'};
     top: 0;
     right: 0;
-    height: 60vh;
+    height: 42vh;
     width: 100vw; 
     padding-top: 2rem;
     transition: transform 0.5s ease-in-out;
