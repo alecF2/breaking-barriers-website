@@ -12,6 +12,9 @@ import OurTeam from './pages/OurTeam/ourTeam';
 
 import Aos from 'aos';
 
+import { GoogleReCaptchaProvider } from 'react-google-recaptcha-v3';
+
+
 function App() {
 
   useEffect( () => {
@@ -19,24 +22,26 @@ function App() {
     } );
 
   return (
-      <Router>
-        <div className="App">
-            <Switch>
-                <Route path="/contactUs">
-                  <ContactUs />
-                </Route>
-                <Route path="/currentProjects">
-                  <CurrentProjects />
-                </Route>
-                <Route path="/team">
-                  <OurTeam />
-                </Route>
-                <Route path="/">
-                  <LandingPage />
-                </Route>
-            </Switch>
-        </div>
-      </Router>
+    <Router>
+      <div className="App">
+        <Switch>
+          <Route path="/contactUs">
+            <GoogleReCaptchaProvider reCaptchaKey="6LcRi_waAAAAAO6VvPEqNuxhyUCjMb2nsiiqav9k">
+              <ContactUs />
+            </GoogleReCaptchaProvider>
+          </Route>
+          <Route path="/currentProjects">
+            <CurrentProjects />
+          </Route>
+          <Route path="/team">
+            <OurTeam />
+          </Route>
+          <Route path="/">
+            <LandingPage />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
