@@ -68,8 +68,6 @@
     margin: auto;
 }
 
-
-
 .mission-main button {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 16;
@@ -110,4 +108,10 @@
     width:45px;
     border-radius: 0 90px 90px 0;
     opacity: 50%;
+}
+
+.dog2{
+    margin-top: -14%;
+    margin-left: 3%;
+    position: absolute;
 }
