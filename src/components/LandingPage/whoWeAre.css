@@ -63,11 +63,16 @@
 .circles-flex{
     display: flex;
     flex-direction: column;
-
 }
 
 .second{
     position: absolute;
     top: auto;
     left: 0%;
+}
+
+.dog{
+    margin-top: 31%;
+    margin-left: -2%;
+    position: absolute;
 }

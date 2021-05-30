@@ -1,14 +1,14 @@
+@media only screen and (max-width:400px){
+
+.desktopCover {
+    display: none !important;
+ }
 
 .barriers-home {
     position: relative;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     color: 24333F;
     text-align: center;
-}
-
-.home-img {
-    width: 100%;
-    opacity: 0.5;
 }
 
 .overlay-text {
@@ -18,4 +18,14 @@
     font-weight: 900;
     font-size: 25px;
     line-height: 37px;
+}
+}
+@media only screen and (min-width:1000px){
+
+    .desktopCover{
+        height: auto;
+    }
+    .first {
+        display: none !important;
+     }
 }

@@ -8,7 +8,7 @@ const WhoWeAre = () =>{
 			<div className="barriers-who-we-are">
 				<h1>Who We Are</h1>
 				<img src="images/circles/LPRectangle600.svg"></img><br></br>
-				<img src="images/WhoWeAre.svg"></img><br></br>
+				<img src="images/WhoWeAre.svg" class="dog"></img><br></br>
 					<img src="images/circles/LPEllipse17.svg" class="first"></img>
 					<img src="images/circles/LPEllipse52(1).svg" class="second"></img>
 					<img src="images/circles/LPEllipse52(1).svg" class="second"></img>
