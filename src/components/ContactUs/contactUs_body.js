@@ -1,12 +1,23 @@
 import "./contactUs_body.css";
+
+import React, { useState } from "react";
+import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
+
+const ContactUs_body = () => {
+  const { executeRecaptcha } = useGoogleReCaptcha();
+
 import React, { useEffect, useState } from "react";
 
 const ContactUs_body = () => {
+
   // state for keeping track of form data
   const [formData, setFormData] = useState({
     Name: "",
     email: "",
     message: "",
+
+    subject: "Breaking Barriers Inquiry",
+    token: "",
   });
 
   // Updates formData whenever textfields are changed
@@ -19,8 +30,27 @@ const ContactUs_body = () => {
   };
 
   // Do stuff with the inputs
-  const handleSubmit = (e) => {
+  const handleSubmit = async(e) => {
     e.preventDefault();
+
+    if(!executeRecaptcha) {
+      console.log("Execute recaptcha not yet available");
+    }
+    formData.token = await executeRecaptcha();
+    // POST request to server:
+    fetch('/contact_us', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(formData)
+    })
+    setFormData({
+      Name: "",
+      email: "",
+      message: "",
+      subject: "Breaking Barriers Inquiry",
+    });
+  };
+
     console.log(formData);
 
     // POST request to server:
