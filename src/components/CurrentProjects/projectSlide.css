@@ -149,10 +149,23 @@
         flex-direction: column;
     }
 
-    .projectInfo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .CPTech {
+        background-image: url('CPGroup120.svg'), url('CPEllipse69.svg');
+        background-repeat: no-repeat, no-repeat;
+        background-position: top right, bottom left;
+        background-size: 100px, 100px;
+    }
+    .CPPen {
+        background-image: url('CPGroup120.svg'), url('CPEllipse69.svg');
+        background-repeat: no-repeat, no-repeat;
+        background-position: top right, bottom left;
+        background-size: 100px, 100px;
+    }
+    .CPArt {
+        background-image: url('CPGroup120.svg'), url('CPEllipse69.svg');
+        background-repeat: no-repeat, no-repeat;
+        background-position: top right, bottom left;
+        background-size: 100px, 100px;
     }
 
     .CPwTitle {
@@ -167,8 +180,6 @@
         font-size: 25px;
     }
     .CPwCaption{
-        /* align-self: center;
-        text-align: center; */
         text-align: left;
         color: black;
         font-family: 'Poppins', sans-serif;
