@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 @media only screen and (min-width: 200px) {
+.CPSlideDiv-Web {
+    display: none;
+}
 .slider {
     position: relative;
     height: 50%;
@@ -138,6 +141,10 @@
 }
 
 @media only screen and (min-width: 700px) {
+    .CPSlideDiv-Web {
+        display: none;
+    }
+
     .slider {
         display: none;
     }
@@ -153,19 +160,21 @@
         background-image: url('CPGroup120.svg'), url('CPEllipse69.svg');
         background-repeat: no-repeat, no-repeat;
         background-position: top right, bottom left;
-        background-size: 100px, 100px;
+        background-size: 150px, 150px;
     }
     .CPPen {
         background-image: url('CPGroup121.svg'), url('CPEllipse69_2.svg');
         background-repeat: no-repeat, no-repeat;
         background-position: bottom left, top right;
-        background-size: 100px, 100px;
+        background-size: 150px, 150px;
+        padding-top:5%;
     }
     .CPArt {
         background-image: url('CPGroup122.svg'), url('CPEllipse71.svg');
         background-repeat: no-repeat, no-repeat;
         background-position: top right, bottom left;
-        background-size: 100px, 100px;
+        background-size: 150px, 150px;
+        padding-top:5%;
     }
     .CPwImg {
         padding-left: 15%;
