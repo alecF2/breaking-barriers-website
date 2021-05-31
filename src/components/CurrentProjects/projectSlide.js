@@ -47,6 +47,26 @@ const ProjectSlide = ({ slides }) =>{
 				);
 			})}
 		</section>
+			<div className='CPSlideDiv-Web'>
+				<div>
+					<img src={SliderData[0].CPimage}/>
+					<h1> {SliderData[0].titleText}</h1>
+					<p> {SliderData[0].CPsubtitle}</p>
+					<p> {SliderData[0].CPCaption} </p>
+				</div>
+				<div>
+					<img src={SliderData[1].CPimage}/>
+					<h1> {SliderData[1].titleText}</h1>
+					<p> {SliderData[1].CPsubtitle}</p>
+					<p> {SliderData[1].CPCaption} </p>
+				</div>
+				<div>
+					<img src={SliderData[2].CPimage}/>
+					<h1> {SliderData[2].titleText}</h1>
+					<p> {SliderData[2].CPsubtitle}</p>
+					<p> {SliderData[2].CPCaption} </p>
+				</div>
+			</div>
 		</div>
 	)
 }
