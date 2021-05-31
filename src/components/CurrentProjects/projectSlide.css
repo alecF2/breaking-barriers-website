@@ -167,28 +167,32 @@
         background-position: top right, bottom left;
         background-size: 100px, 100px;
     }
+    .CPwImg {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
 
     .CPwTitle {
         color: #1D537B;
         font-family: 'M PLUS Rounded 1c', sans-serif;
         font-size: 55px;
-        padding-left: 25%;
-        padding-right: 25%;
+        padding-left: 15%;
+        padding-right: 15%;
     }
     .CPwsubtitle {
         text-align: left;
         color: black;
         font-family: 'Poppins', sans-serif;
         font-size: 25px;
-        padding-left: 25%;
-        padding-right: 25%;
+        padding-left: 15%;
+        padding-right: 15%;
     }
     .CPwCaption{
         text-align: left;
         color: black;
         font-family: 'Poppins', sans-serif;
         font-size: 25px;
-        padding-left: 25%;
-        padding-right: 25%;
+        padding-left: 15%;
+        padding-right: 15%;
     }
 }
