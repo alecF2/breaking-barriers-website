@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
-.CPSliderDiv {
-    /*background-image: url('images/CPGroup120_1.png');*/
-    background-color: blue;
-}
 @media only screen and (min-width: 200px) {
 .slider {
     position: relative;
@@ -40,7 +36,7 @@
     text-align: center;
     color: #1D537B;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 25px;
+    font-size: 45px;
     /* padding-left: 25%;
     padding-right: 25%; */
 }
