@@ -47,8 +47,9 @@ const ProjectSlide = ({ slides }) =>{
 				);
 			})}
 		</section>
+
 			<div className='CPSlideDiv-Web'>
-				<div>
+				<div className='projectInfo'>
 					<img src={SliderData[0].CPimage}/>
 					<h1> {SliderData[0].titleText}</h1>
 					<p> {SliderData[0].CPsubtitle}</p>
