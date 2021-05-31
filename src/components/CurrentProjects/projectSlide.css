@@ -1,10 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-.CPSliderDiv {
-    /*background-image: url('images/CPGroup120_1.png');*/
-    background-color: blue;
-}
 @media only screen and (min-width: 200px) {
 .slider {
     position: relative;
@@ -28,7 +24,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width:75%;
+    max-width:50%;
     justify-content: center;
     align-self: center;
     border-radius: 5%;
@@ -143,120 +139,39 @@
 
 @media only screen and (min-width: 700px) {
     .slider {
-        position: relative;
-        height: 50%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width:100%; 
-        justify-content: center;
-        align-items: center;
-        padding-top: 0;
-        padding-bottom: 10%;
-        background-image: url('CPGroup120.svg'), url('CPEllipse69.svg');
-        background-repeat: no-repeat, no-repeat;
-        background-position: top right, bottom left;
-        background-size: 300px, 300px;
+        display: none;
     }
-    
-    .CPimage {
-        max-height: 400px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        max-width:75%;
-        justify-content: center;
-        align-self: center;
-        border-radius: 5%;
-    }
-    
-    .CPTitle {
-        width: 100%;
-        align-self: center;
-        text-align: center;
-        color: #1D537B;
-        font-family: 'M PLUS Rounded 1c', sans-serif;
-        font-size: 25px;
-    }
-    .CPsubtitle {
-        max-width: 100%;
-        text-align: left;
-        border: 10px;
-        margin: 0;
-        color: black;
-        font-family: 'Poppins', sans-serif;
-        font-size: 25px;
-        padding-left: 30%;
-        padding-right: 30%;
-    }
-    .CPCaption{
-        /* align-self: center;
-        text-align: center; */
-        max-width: 100%;
-        text-align: left;
-        border: 10px;
-        color: black;
-        font-family: 'Poppins', sans-serif;
-        font-size: 25px;
-        padding-bottom: 50px; 
-        padding-left: 30%;
-        padding-right: 30%;
-    }
-    .right-arrow {
-        position: absolute;
-        bottom: 1px;
-        right: 1%;
-        font-size: 3rem;
-        color: grey;
-        z-index: 10;
-        cursor: pointer;
-        user-select: none;
-    } 
-    .left-arrow {
-        position: absolute;
-        bottom: 1px;
-        left: 1%;
-        font-size: 3rem;
-        color: grey;
-        z-index: 10;
-        cursor: pointer;
-        user-select: none;
-    }
-    
-    .slide {
-        opacity: 0;
-        transition-duration: 1s ease;
+
+    .CPSlideDiv-Web {
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
     }
-    
-    .slide.active {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        opacity: 1;
-        transition-duration: 1s;
-        transform: scale(1.08);
-    }
-    
+
     .projectInfo {
         display: flex;
-        /* justify-content: center;
-        align-items: center; */
-        flex-direction: column;
-        margin-bottom: 10px;
-        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
     }
-    
-    .down-arrow {
-        top: 50%;
-        right: 32px;
-        font-size: 3rem;
-        color: grey;
-        z-index: 10;
-        cursor: pointer;
-        user-select: none;
-        margin-bottom: 5px;
+
+    .CPwTitle {
+        color: #1D537B;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-size: 55px;
     }
+    .CPwsubtitle {
+        text-align: left;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
     }
+    .CPwCaption{
+        /* align-self: center;
+        text-align: center; */
+        text-align: left;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+    }
+}
