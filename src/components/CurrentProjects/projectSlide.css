@@ -154,4 +154,24 @@
         justify-content: center;
         align-items: center;
     }
+
+    .CPwTitle {
+        color: #1D537B;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-size: 55px;
+    }
+    .CPwsubtitle {
+        text-align: left;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+    }
+    .CPwCaption{
+        /* align-self: center;
+        text-align: center; */
+        text-align: left;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+    }
 }
