@@ -36,6 +36,7 @@ app.post("/contact_us", (req, res) => {
       from: `${req.body.Name} [${req.body.email}] <process.env.EMAIL_USER>`,
       to: process.env.SUPPORT_EMAIL,
       subject: `${req.body.subject} from ${req.body.Name}`,
+      text: `Use an HTML enabled client to view this email.`,
       replyTo: req.body.email
     }
   
@@ -44,8 +45,7 @@ app.post("/contact_us", (req, res) => {
       res.status(406).send({message: "Captcha could not be verified, score too low"});
     } else if (data.score <= 0.7) {
       // send with disclaimer
-      mailOptions.text = "Warning from server: Potential spam\n";
-      mailOptions.html = `<p>${req.body.message}</p>`;
+      mailOptions.html = `<h3>Warning: Potential spam</h3><p>${req.body.message}</p>`;
       transporter.sendMail(mailOptions, function(error, info){
         if(error){
             console.log(error);  
