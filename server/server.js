@@ -58,7 +58,6 @@ app.post("/contact_us", (req, res) => {
       })
     } else {
       // 0.7+
-      mailOptions.text = req.body.message;
       mailOptions.html = `<p>${req.body.message}</p>`
       transporter.sendMail(mailOptions, function(error, info){
         if(error){
