@@ -85,3 +85,17 @@
 		width: 70vw;
 	}
 }
+
+.head-container {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+}
+
+.img-container {
+	width: 50%;
+}
+
+.CPwTitle {
+	padding-left: 0px;
+}

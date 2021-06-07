@@ -50,9 +50,15 @@ const ProjectSlide = ({ slides }) =>{
 
 			<div className='CPSlideDiv-Web'>
 				<div className='CPTech'>
-					<img className='CPwImg' src={SliderData[0].CPimage}/>
-					<h1 className='CPwTitle'> {SliderData[0].titleText}</h1>
-					<p className='CPwsubtitle'> {SliderData[0].CPsubtitle}</p>
+					<div className='head-container'>
+						<div className='img-container'>
+							<img className='CPwImg' src={SliderData[0].CPimage}/>
+						</div>
+						<div className='content-container'>
+							<h1 className='CPwTitle'> {SliderData[0].titleText}</h1>
+							<p className='CPwsubtitle'> {SliderData[0].CPsubtitle}</p>
+						</div>
+					</div>
 					<p className='CPwCaption'> {SliderData[0].CPCaption} </p>
 				</div>
 				<div className='CPPen'>
