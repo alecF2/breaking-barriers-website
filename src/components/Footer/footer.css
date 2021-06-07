@@ -1,78 +1,97 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@900&display=swap');
 
 .barriers-footer{
-	position: static;
-  left: 0;
-  bottom: 0;
+  padding-top: 40px;
+  overflow-x: hidden;
   width: 100vw;
-  height: 300px;
-  background-image: url("footer.svg");
-  color: #37392E;
-  display: flex;
+  max-width: 100%;
+  overflow-x: hidden;
+  padding-bottom: 60px;
+  background-color: #76854C;
 }
 
 .footer-content{
   display: flex;
-  text-align: left;
-  margin: auto;
-  margin-left: 375px;
   flex-direction: row;
-  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
 
 .footer-column{
   display: flex;
   flex-direction: column;
-  line-height: 1.3;
-  margin-right: 20px;
-  margin-left: 20px;
-  font-family: 'Poppins', sans-serif;
+  align-items: left;
+  margin: 0 auto;
 }
 
-.footer-socials{
+.footer-one{
   display: flex;
-  display: row;
+  flex-direction: row;
   align-items: center;
-  font-family: 'Poppins', sans-serif;
-  text-decoration: underline;
 }
 
-.two, .three, .four{
-  margin-top: 10px;
+.footer-one a{
+ z-index: 5;
+}
+
+.footer-two, .footer-three, .footer-four{
+  margin: auto;
+}
+
+.footer-three{
+  margin-top: 30px;
+  line-height: 1.5;
+}
+
+.footer-four{
+  margin-top: 30px;
+  line-height: 2;
+}
+
+.footer-five{
+  margin-top: 25px;
+}
+
+.footer-four a{
+  font-size: 1.3vw;
   font-family: 'Poppins', sans-serif;
   color: #FFFFFF;
 }
 
-.footer-links{
-  margin-bottom: 5px;
+.footer-five a{
+  font-size: 1.3vw;
   font-family: 'Poppins', sans-serif;
   color: #FFFFFF;
-  font-weight: 500;
 }
 
-.footer-socials{
-  margin-bottom: 7px;
-  margin-top: 7px;
-  font-family: 'Poppins', sans-serif;
-  color: #FFFFFF;
-  font-weight: 500;
+
+#footer_tree{
+  width: 6vw;
+  position: absolute;
+  margin-left: 4vw;
 }
 
-.footer-socials img{
-  margin-right: 5px;
+#footer_tree_two{
+  z-index: 5;
+  width: 6vw;
+}
+
+#footer_logo{
+  width: 10vw;
+  z-index: 5;
+  margin-left: 6.5vw;
 }
 
 #title{
-  font-size: 30px;
-  margin-bottom: 20px;
+  font-size: 3vw;
+  margin-bottom: 0.5vw;
   font-family: 'M PLUS Rounded 1c', sans-serif;
   color: #EAD8D3;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 #subtitle{
-  font-size: 20px;
+  font-size: 1.5vw;
   font-family: 'Poppins', sans-serif;
   color: #FFFFFF;
 }
@@ -82,48 +101,91 @@
   font-weight: bold;
 }
 
-.three a{
-  margin-bottom: 7px;
+.footer-links{
+  font-size: 1.3vw;
+  font-family: 'Poppins', sans-serif;
+  color: #FFFFFF;
+}
+
+.footer-socials{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-socials a{
+  font-size: 1.3vw;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 10px;
+  color: #FFFFFF;
 }
 
 .footer-heart{
   color: red;
-  font-weight: bold;
+  font-weight: 900;
+  font-size: 2vw;
 }
 
-.mobile{
+.social-logos{
+  width: 2vw;
+}
+
+.footer-mobile{
   display: none;
 }
 
-@media (max-width: 887px){
-  .mobile{
-    display: flex;
-    flex-direction: column;
-  }
-  .web{
-    display: none;
-  }
-  .two{
-    display: flex;
-    flex-direction: row;
-  }
-
-  .two img{
-    margin-right: 25px;
-    width: 50px;
-  }
-
-  .two a{
-    font-size: 20px;
-  }
-
-  .footer-content{
-    margin-left: 400px;
-  }
-
-  .footer-column{
-    line-height: 1.5;
-  }
-
+.mobile-footer-socials{
+  display: flex;
+  flex-direction: row;
 }
 
+
+
+@media only screen and (max-width: 887px){
+  .footer-web{
+    display: none;
+  }
+
+  .footer-mobile{
+    display: flex;
+  }
+
+  .social-logos{
+    width: 9vw;
+  }
+
+  .include-motto a{
+    font-size: 3.5vw;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+  }
+
+  .include-motto{
+    margin-left: 2vw;
+  }
+
+  #footer_tree{
+    width:13vw;
+    position: absolute;
+    margin-left: 0vw;
+  }
+
+  #footer_logo{
+    width: 23vw;
+    z-index: 5;
+    margin-left: 4vw;
+  }
+
+  #title{
+    font-size: 6vw;
+  }
+
+  .footer-heart{
+    font-size: 5vw;
+  }
+
+  #footer-instagram{
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+}
