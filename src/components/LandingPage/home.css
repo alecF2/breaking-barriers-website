@@ -11,14 +11,26 @@
     text-align: left;
 }
 
-.overlay-text {
+h1.overlay-text {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     color: #24333f;
+    margin: 79.8px 55.95px 5.34px 47.98px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 900;
     /*font-size: 25px;
     line-height: 37px;*/
 }
+
+.barriers-home p{
+    font-family: 'poppins';
+    color: #24333f;
+    margin: 5.34px 48.02px 106.53px 47.98px;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400px;
+}
+
 }
 @media only screen and (min-width:1000px){
 
