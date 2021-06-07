@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Burger from './Burger';
 
-const Nav = styled.nav`
+const NavMobile = styled.nav`
   text-align: center;
   z-index: 22;
   height: 90px;
@@ -16,23 +16,40 @@ const Nav = styled.nav`
     height: auto;
     padding: 8px 0px;
   }
+  .menu-web{
+    display: flex;
+  }
+  .menu-mobile{
+    display: none;
+  }
   @media (max-width: 768px) {
     text-align: center;
     align-items: center;
     .logo{
       width: 100%;
     }
+    .menu-web{
+      display: none;
+    }
+    .menu-mobile{
+      display: flex;
+    }
   }
 `
 
 const Navbar = () => {
   return (
-    <Nav>
-      <Burger />
+    <NavMobile>
+      <div className="menu-mobile">
+        <Burger />
+      </div>
       <div className="logo">
         <a href="/"><img src="images/logo.svg" /></a>
       </div>
-    </Nav>
+      <div className="menu-web">
+        <Burger />
+      </div>
+    </NavMobile>
   )
 }
 

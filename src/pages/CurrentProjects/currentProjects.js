@@ -6,6 +6,7 @@ import ProjectSlide from '../../components/CurrentProjects/projectSlide';
 import {SliderData} from '../../components/CurrentProjects/SliderData';
 import Navbar from '../../components/Navbar/navbar';
 import Footer from '../../components/Footer/footer';
+import CP_Contact from '../../components/CurrentProjects/cp_contact';
 
 const CurrentProjects = () => {
 	return(
@@ -14,6 +15,7 @@ const CurrentProjects = () => {
 				<Navbar />
 				<CurrentProjects_body />
 				<ProjectSlide slides={SliderData}/>
+				<CP_Contact />
 				<Footer />
 			</div>
 		</React.Fragment>
