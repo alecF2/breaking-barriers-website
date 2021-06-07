@@ -72,15 +72,16 @@
 
 .mission-main button {
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 16;
-    font-style: bold;
-    color: #24333F;
-    cursor: pointer;
-    border-radius: 10px;
-    width: auto;
-    text-align: justify;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 16px;
+    margin: 30.05px 0 20px 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 20px;
+    width: 227px;
+    height: 40px;
     background-color: #FFBD59;
-    box-shadow: 0 1px black;
   }
   
 .mission-main button:hover {
