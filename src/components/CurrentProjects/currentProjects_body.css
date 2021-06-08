@@ -111,3 +111,19 @@
 		width: 60vw;
 	}
 }
+
+.CP-head-container {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.img-container {
+	width: 50%;
+}
+
+.CPwTitle {
+	padding-left: 0px;
+}

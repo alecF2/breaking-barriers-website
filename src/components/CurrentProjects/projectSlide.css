@@ -63,9 +63,11 @@
     color: black;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
-    padding-bottom: 50px; 
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-bottom: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    /* padding-left: 15%;
+    padding-right: 15%; */
 }
 /*.CPBimg1 {
     max-height: 800px;
@@ -129,16 +131,6 @@
     overflow-x: hidden;
 }
 
-.down-arrow {
-    top: 50%;
-    right: 32px;
-    font-size: 3rem;
-    color: grey;
-    z-index: 10;
-    cursor: pointer;
-    user-select: none;
-    margin-bottom: 5px;
-}
 }
 
 @media only screen and (min-width: 700px) {
@@ -186,16 +178,16 @@
         color: #1D537B;
         font-family: 'M PLUS Rounded 1c', sans-serif;
         font-size: 55px;
-        padding-left: 15%;
-        padding-right: 15%;
+        /* padding-left: 15%;
+        padding-right: 15%; */
     }
     .CPwsubtitle {
         text-align: left;
         color: black;
         font-family: 'Poppins', sans-serif;
         font-size: 25px;
-        padding-left: 15%;
-        padding-right: 15%;
+        /* padding-left: 15%;
+        padding-right: 15%; */
     }
     .CPwCaption{
         text-align: left;
