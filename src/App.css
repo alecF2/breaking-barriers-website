@@ -2,5 +2,7 @@
 
 .App{
   height: 100vh;
-  
+}
+.grecaptcha-badge {
+  z-index: 999;
 }
