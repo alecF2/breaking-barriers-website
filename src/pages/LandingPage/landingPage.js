@@ -13,8 +13,8 @@ const LandingPage = () => {
 			<div className="landingPage-barriers">
 				<Navbar />
 				<Home />
-				<Mission />
 				<WhoWeAre />
+				<Mission />
 				<Footer />
 			</div>
 		</React.Fragment>

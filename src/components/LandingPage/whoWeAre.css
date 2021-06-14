@@ -1,5 +1,5 @@
 .barriers-who-we-are{
-    color: #37392E;
+    color: #24333F;
     font-family: 'Poppins';
     text-align: center;
     margin-left: 10%;
@@ -12,6 +12,7 @@
 .barriers-who-we-are h1{
     color: #000000;
     font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 900;
     font-size: 28pt;
 }   
 

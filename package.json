@@ -10,6 +10,7 @@
     "react": "^17.0.2",
     "react-carousel-slider": "^2.0.13",
     "react-dom": "^17.0.2",
+    "react-google-recaptcha-v3": "^1.9.4",
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
@@ -20,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "joint": "npm run build && (cd server && yarn start)",
+    "server": "(cd server && yarn start)"
   },
   "eslintConfig": {
     "extends": [

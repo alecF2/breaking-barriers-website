@@ -5,6 +5,8 @@ import React, { useEffect } from 'react';
 const Home = () =>{
 	return(
 		<React.Fragment>
+			<img src="images/circles/LPhomeIMG.svg" class="first"></img>
+			<img src="images/LPlanding.svg" class="desktopCover"></img>
 			<div className="barriers-home">
 			<img className="home-img" src="image.png" alt="Landing"></img>
 			<div className="overlay-text">
