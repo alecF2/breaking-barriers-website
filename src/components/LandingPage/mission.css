@@ -2,12 +2,10 @@
     color: #37392e;
     font-family: 'Poppins', sans-serif;
     justify-content: space-evenly;
+    text-align: center;
     font-size: 12pt;
     margin-left: 10%;
     margin-right: 10%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .mission-main h1{
@@ -23,48 +21,13 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 21px;
+    align-items: center;
     width: 74.4%;
     margin: auto;
 }
 
-.mission-main button {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 16;
-    font-style: bold;
-    color: #24333F;
-    cursor: pointer;
-    border-radius: 10px;
-    width: auto;
-    text-align: justify;
+.learn-more{
+    border-radius: 8px;
     background-color: #FFBD59;
-    box-shadow: 0 1px black;
-  }
-  
-.mission-main button:hover {
-    background-color: #ed9d26;
-    border-radius: 10px;
-    width: auto;
-    text-align: justify;
-    box-shadow: 0 2px black;
-}
-
-.button:active {
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-}
-
-.circle {
-    height:90px;
-    width:45px;
-    border-radius: 0 90px 90px 0;
-    background:#ffbd59;
-    opacity: 50%;
-}
-
-.circle2{
-    background-color: #9fd3fa;
-    height:90px;
-    width:45px;
-    border-radius: 0 90px 90px 0;
-    opacity: 50%;
+    border: none;
 }

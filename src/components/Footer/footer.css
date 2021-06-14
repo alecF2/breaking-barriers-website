@@ -1,0 +1,21 @@
+.barriers-footer{
+	padding-top: 20px;
+	position: static;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+  	background-color: #8BC9F9;
+  	color: #37392E;
+  	text-align: center;
+  	align-items: center;
+  	padding-bottom: 20px;
+}
+
+.barrier-links{
+	padding-top: 10px;
+}
+
+.barrier-links a{
+	padding-left: 3vw;
+	padding-right: 3vw;
+}

@@ -1,18 +1,15 @@
 .barriers-who-we-are{
     color: #37392E;
     font-family: 'Poppins';
+    text-align: center;
     margin-left: 10%;
     margin-right: 10%;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .barriers-who-we-are h1{
-    text-align: center;
     color: #000000;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 28pt;
@@ -28,29 +25,3 @@
     width: 74.4%;
     margin: auto;
 }
-
-.barriers-who-we-are button {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 16;
-    font-style: bold;
-    color: #24333F;
-    cursor: pointer;
-    border-radius: 10px;
-    width: auto;
-    text-align: justify;
-    background-color: #FFBD59;
-    box-shadow: 0 1px black;
-  }
-  
-.barriers-who-we-are button:hover {
-    background-color: #ed9d26;
-    border-radius: 10px;
-    width: auto;
-    text-align: justify;
-    box-shadow: 0 2px black;
-}
-
-.button:active {
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-  }

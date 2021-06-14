@@ -6,7 +6,10 @@ const Footer = () =>{
 	return(
 		<React.Fragment>
 			<div className="barriers-footer">
-				<h1>Footer!</h1>
+				<a href="/"><img src="images/BreakingBarriers1.svg" /></a>
+				<div className="barriers-links">
+					<a href="/"><img src="images/facebook.svg" /></a>
+				</div>
 			</div>
 		</React.Fragment>
 	);
