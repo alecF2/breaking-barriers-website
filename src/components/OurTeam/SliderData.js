@@ -1,21 +1,33 @@
-export const SliderData = [
+export const SliderData_OurTeam = [
     {
-        CPimage: 'https://images.unsplash.com/photo-1513692644816-f1d197f675c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=988&q=80',
-        // titleText: 'Technology:',
-        // CPsubtitle: 'Breaking Barriers have partnered with ACC Senior Services to provide technology support and lessons to older adults.',
-        // CPCaption: 'ACC Senior Services is a local organization founded to “provide housing, education, and social services to help older adults navigate and sustain an independent lifestyle. We have particularly partnered with their Senior Community Service Employment Program (SCSEP) to deliver tailored technology lessons to their older adults. We partner a SCSEP participant with one Breaking Barriers volunteer who will meet with them weekly to provide technology lessons. These lessons are participant-specific so that they are able to learn skills they are interested in. During COVID-19, our volunteers have met on Zoom with their SCSEP partner to have their weekly tailored-lessons.',
+        CPimage: 'images/Kevin_ourTeam.svg',
+        titleText: 'Kevin Ta',
+        CPCaption: 'Hey everyone! My name is Kevin Ta and I am currently a fourth year majoring in Sociology. Being Co-President of Breaking Barriers, I learned that older adults are full of life and stories, ready to be shared with those who want to listen. My relationship with my older adult has taught me to cherish life and that it is never too late to try new things. As I listen to her stories, I become excited and rejuvenated. My goal with Breaking Barriers is to connect more college students with older adults so that they may be able to listen to these stories and gain a new sense of life.',
+        CPsubtitle: 'Co-President',
 
     },
     {
-        CPimage: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80',
-        // titleText: '"Pen"pals:',
-        // CPsubtitle: 'Breaking Barriers have partnered with local facilities to connect our college student volunteers with elderly residents',
-        // CPCaption: 'Just as our motto goes, we would like to “break” that generational barrier that exists between the younger and older generations. To do so, we have partnered with various senior facilities to connect our volunteers with elderly residents who have little opportunity to interact with younger people. We firmly believe that despite the age and generational gap between our volunteers and residents, there is much to be shared and learned from each other. During COVID-19, our volunteers typically schedule weekly ~1 hour phone calls with their resident to chat or even watch movies with. We try our best to match our volunteers with residents who have similar interests, hobbies, culture, and language - eliminating any potential “barriers'
+        CPimage: 'images/Desmond_ourTeam.svg',
+        titleText: 'Desmond Cheung',
+        CPCaption: 'Hey everyone! My name Desmond Cheung and I am currently a third year, studying Biochemistry and Molecular Biology. I really enjoyed establishing Breaking Barriers with Kevin and QA; it not only helped me develop and improve my character, I was also able to contribute to the elder population. Building relationships and assisting elders is a really fun and intriguing experience that I encourage all of you to try. Who knows, you may even learn something new about yourself! Nice to see you all!',
+        CPsubtitle: 'Co-President',
     },
     {
-        CPimage: 'https://images.unsplash.com/photo-1510446418220-00d2e0a27795?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80',
-        // titleText: 'Arts & Crafts:',
-        // CPsubtitle: 'Breaking Barriers have partnered with local facilities to deliver arts and crafts to residents at senior centers.',
-        // CPCaption: 'Our volunteers are very talented in arts and crafts, ranging from painting to origami. With these various skills, we have developed the Arts & Crafts program where our volunteers teach or present a DIY/Arts program to elderly adults staying at a senior living center. We typically host these per request of the facility and based on the resources they are able to provide. During COVID-19, we have delivered live Zoom presentations that include live poetry/storytelling produced and presented by our volunteers'
+        CPimage: 'images/Joan_ourTeam.svg',
+        titleText: 'Joan Oclarit',
+        CPCaption: 'Hi everyone! My name is Joan Oclarit. I am a fourth-year Microbiology major and I’m excited to be a part of Breaking Barriers! I have learned a great deal from my experience teaching, communicating, and connecting with my older adult, and I continue to do so after each meeting. I discovered that older adults also have a passion for learning and a desire to share their knowledge with you. In my opinion, the best part of volunteering is the wholesome interaction and the bond you build with your older adult. I hope to share this experience with others!',
+        CPsubtitle: 'Internal Vice President',
+    },
+    {
+        CPimage: 'images/Sameeha_ourTeam.svg',
+        titleText: 'Sameeha Salman',
+        CPCaption: 'Hey everyone! My name Sameeha Salman and I am currently a second year studying Neurobiology Physiology and Behavior. I am so excited to be serving as External Vice President of Breaking Barriers, simply because I have enjoyed the relationship my older adult and I have built over the past few months and seeing how much we have both benefited from the experience. I love our weekly chats and check-ins with each other, and it really motivates me to help others form similar bonds with their older adults!',
+        CPsubtitle: 'External Vice President',
+    },
+    {
+        CPimage: 'images/Erica_ourTeam.svg',
+        titleText: 'Erica Chiu',
+        CPCaption: "Hello! My name is Erica Chiu and I am a third-year human biology major. I'm super excited to work as Webmaster for Breaking Barriers. My goal is to make use of our socials to spread our name and expand our club! In my free time, I like to bake & hang out with my two cats. I'm looking forward to an amazing year!",
+        CPsubtitle: 'Webmaster',
     }
 ]

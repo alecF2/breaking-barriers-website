@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@900&family=Poppins:wght@400;600&display=swap');
+
+.team-slider-1 {
+    position: relative;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: url('mobile_2_new.png');
+    background-repeat: no-repeat;
+
+    background-size: contain;
+    background-position: bottom right;
+    margin: 0%;
+}
+
+.team-padding-bottom {
+    padding-bottom: 25%;
+}
+
+.team-padding-top {
+    padding-top: 25%;
+}
+
+.CPimage-1 {
+    /* height: 25vh;
+    width: 45vw; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border-radius: 20%;
+}
+
+.CPimage-1-desktop {
+    margin-left: 35%;
+    height: 35vh;
+    width: 21vw;
+}
+
+.CPTitle-1 {
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    font: Arial;
+    font-size: 15px;
+    margin: auto;
+    /* padding-top: 3%; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.CPCaption-1 {
+    max-width: 80%;
+    /* border-radius: 10px; */
+    text-align: left;
+    /* border: 20px; */
+    color: black;
+    font: Arial;
+    font-size: 15px;
+    margin: auto;
+    padding-right: 20%;
+    padding-left: 20%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.CPCaption-1-desktop {
+    padding-right: 20%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.CPsubtitle-1 {
+    max-width: 80%;
+    /* border-radius: 10px; */
+    text-align: center;
+    /* border: 20px; */
+    color: black;
+    font: Arial;
+    font-size: 15px;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.right-arrow-1 {
+    position: absolute;
+    top: 40%;
+    right: 2%;
+    font-size: 3rem;
+    color: grey;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+    width: 5%;
+    height: auto;
+}
+
+.team-padding {
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+}
+
+.left-arrow-1 {
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    font-size: 3rem;
+    color: grey;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+    width: 5%;
+    height: auto;
+}
+
+.slide-1 {
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+
+.slide.active-1 {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}
+
+.team-headings {
+    color: #1D537B;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 35px;
+}
+
+.team-desktop {
+    display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+    .team-mobile {
+        display: none;
+    }
+    .team-desktop {
+        font-family: 'Poppins', sans-serif;
+        display: block;
+        padding-top: 3%;
+    }
+
+    .right-arrow-1 {
+        width: 2%;
+        top: 50%;
+        right: 2%;
+    }
+
+    .left-arrow-1 {
+        width: 2%;
+        top: 52%;
+        left: 2%;
+    }
+}

@@ -1,9 +1,11 @@
-import './projectSlide.css';
-import {SliderData} from './SliderData.js'; 
+import './projectSlide_OurTeam.css';
+import {SliderData_OurTeam} from './SliderData.js'; 
 import React, {Component, useState} from 'react';
-import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
+// import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
+import {FaChevronRight,FaChevronLeft} from 'react-icons/fa'
 
-const ProjectSlide = ({ slides }) =>{
+
+const ProjectSlide_OurTeam = ({ slides }) =>{
 	const [current, setCurrent] = useState(0);
 	const length = slides.length;
   
@@ -20,20 +22,38 @@ const ProjectSlide = ({ slides }) =>{
 	}
 
 	return(
-		<section className="slider">
-			<FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide}/>
-			<FaArrowAltCircleRight className="right-arrow" onClick={nextSlide}/>
-			{SliderData.map((slide, index) => {
+		<section className="team-slider-1">
+			<FaChevronLeft className="left-arrow-1" onClick={prevSlide}/>
+			<FaChevronRight className="right-arrow-1" onClick={nextSlide}/>
+			{SliderData_OurTeam.map((slide, index) => {
 
 				return (
-					<div className={index === current ? 'slide active' : 'slide'}
+					<div className={index === current ? 'slide active-1' : 'slide-1'}
 					key={index}>
             		{index === current && (
 						<div>
-							<img className='CPimage' src={slide.CPimage} alt='travel image'/>
-							<h2 className='CPTitle'> {slide.titleText} </h2>
-							<p className='CPsubtitle'> {slide.CPsubtitle}  </p>
-							<p className='CPCaption'> {slide.CPCaption} </p>
+							<div className="team-mobile">
+								<img className='CPimage-1' src={slide.CPimage} alt='travel image'/>
+								<h2 className='CPTitle-1'> {slide.titleText} </h2>
+								<p className='CPsubtitle-1'> {slide.CPsubtitle}  </p>
+								<p className='CPCaption-1'> {slide.CPCaption} </p>
+							</div>
+							<div className="team-desktop">
+								<table style={{"width" : "100%"}}>
+									<tbody>
+										<tr>
+											<td style={{"width" : "40%"}}><img className='CPimage-1-desktop' src={slide.CPimage} alt='travel image'/></td>
+											<td style={{"width" : "60%"}}>
+												<h1 className="team-headings">Meet Our Officers</h1>
+												<h2 className='CPTitle-1-desktop'> {slide.titleText} </h2>
+												<p className='CPsubtitle-1-desktop'> {slide.CPsubtitle}  </p>
+												<p className='CPCaption-1-desktop'> {slide.CPCaption} </p>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								{/* <p className="desktop">Our officers are all UC Davis students from various backgrounds! Each board member is in charge of different aspects of Breaking Barriers. As a team, we aspire to provide the best experience possible for our members and partners.</p> */}
+							</div>
 						</div>
 
             		)}
@@ -44,4 +64,4 @@ const ProjectSlide = ({ slides }) =>{
 	)
 }
 
-export default ProjectSlide;
+export default ProjectSlide_OurTeam;
