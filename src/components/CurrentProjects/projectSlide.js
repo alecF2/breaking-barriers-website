@@ -21,32 +21,34 @@ const ProjectSlide = ({ slides }) =>{
 	}
 
 	return(
+		<div style={{width: '100%', margin: '0', padding: '0'}}>
 		<div className="CPSlideDiv">
-		<section className="slider">
-			<IoIosArrowBack className="left-arrow" onClick={prevSlide}/>
-			<IoIosArrowForward className="right-arrow" onClick={nextSlide}/>
-			
-			{SliderData.map((slide, index) => {
+			<section className="slider">
+				<IoIosArrowBack className="left-arrow" onClick={prevSlide}/>
+				<IoIosArrowForward className="right-arrow" onClick={nextSlide}/>
+				
+				{SliderData.map((slide, index) => {
 
-				return (
-					<div className={index === current ? 'slide active' : 'slide'}
-					key={index}>
-            		{index === current && (
-						<div className='projectInfo'>
-							<img className='CPimage' src={slide.CPimage} alt='travel image'/>
-							<h1 className='CPTitle'> {slide.titleText} </h1>
-							<p className='CPsubtitle'> {slide.CPsubtitle}  </p>
-							<p className='CPCaption'> {slide.CPCaption} </p>
-							{/* <img className='CPBimg1' src={slide.CPBimg1} alt='bkgd_im1'/>
-							<img className='CPBimg2' src={slide.CPBimg2} alt='bkgd_im2'/> */}
-							{/* <IoIosArrowDown className='down-arrow'/> */}
+					return (
+						<div className={index === current ? 'slide active' : 'slide'}
+						key={index}>
+						{index === current && (
+							<div className='projectInfo'>
+								<img className='CPimage' src={slide.CPimage} alt='travel image'/>
+								<h1 className='CPTitle'> {slide.titleText} </h1>
+								<p className='CPsubtitle'> {slide.CPsubtitle}  </p>
+								<p className='CPCaption'> {slide.CPCaption} </p>
+								{/* <img className='CPBimg1' src={slide.CPBimg1} alt='bkgd_im1'/>
+								<img className='CPBimg2' src={slide.CPBimg2} alt='bkgd_im2'/> */}
+								{/* <IoIosArrowDown className='down-arrow'/> */}
+							</div>
+						)}
+						
 						</div>
-            		)}
-					
-         			</div>
-				);
-			})}
+					);
+				})}
 		</section>
+		</div>
 
 			<div className='CPSlideDiv-Web'>
 				<div className='CPTech'>

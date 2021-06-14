@@ -5,17 +5,22 @@
 .CPSlideDiv-Web {
     display: none;
 }
+.CPSlideDiv {
+    width: 100%;
+}
 .slider {
     position: relative;
     height: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:100vw; 
+    width:100%; 
     justify-content: center;
     align-items: center;
     padding-top: 15%;
     padding-bottom: 10%;
+    padding-right: 0;
+
     background-image: url('CPGroup120.svg'), url('CPEllipse69.svg');
     background-repeat: no-repeat, no-repeat;
     background-position: top right, bottom left;
@@ -147,6 +152,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+
     }
 
     .CPTech {
