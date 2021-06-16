@@ -73,8 +73,30 @@
     left: 0%;
 }
 
-.dog{
+/*.dog{
     margin-top: 31%;
     margin-left: -2%;
     position: absolute;
+}*/
+
+.first-frame{
+	margin: 0 auto;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	width: 50vw;
+	margin-top: 7vw;
+}
+
+.dog{
+	position: absolute;
+	/*width: 72vw;*/
+}
+
+.wframe{
+	margin-top: -10px;
+    width: 80vw;
+	margin-left: 2vw;
+	z-index: 0;
+
 }
