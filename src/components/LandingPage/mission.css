@@ -2,10 +2,12 @@
     color: #37392e;
     font-family: 'Poppins', sans-serif;
     justify-content: space-evenly;
-    text-align: center;
     font-size: 12pt;
     margin-left: 10%;
     margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .mission-main h1{
@@ -22,13 +24,115 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 21px;
-    align-items: center;
     width: 74.4%;
     margin: auto;
 }
 
-.learn-more{
-    border-radius: 8px;
-    background-color: #FFBD59;
+
+.barriers-tidbits-about-us{
+    color: #24333F;
+    font-family: 'Poppins';
+    margin-left: 10%;
+    margin-right: 10%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.barriers-tidbits-about-us h1{
+    text-align: center;
+    color: #1D537B;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 900;
+    font-size: 28pt;
+}
+
+.barriers-tidbits-about-us h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    width: 74.4%;
+    margin: auto;
+}
+
+.barriers-tidbits-about-us p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    width: 74.4%;
+    margin: auto;
+}
+
+.mission-main button {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 16px;
+    margin: 30.05px 0 20px 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border: none;
+    border-radius: 20px;
+    width: 227px;
+    height: 40px;
+    background-color: #FFBD59;
+  }
+  
+.mission-main button:hover {
+    background-color: #ed9d26;
+    border-radius: 10px;
+    width: auto;
+    text-align: justify;
+    box-shadow: 0 2px black;
+}
+
+.button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.circle {
+    height:90px;
+    width:45px;
+    border-radius: 0 90px 90px 0;
+    background:#ffbd59;
+    opacity: 50%;
+}
+
+.circle2{
+    background-color: #9fd3fa;
+    height:90px;
+    width:45px;
+    border-radius: 0 90px 90px 0;
+    opacity: 50%;
+}
+
+.dog2{
+    margin-top: -14%;
+    margin-left: 3%;
+    position: absolute;
+}
+
+.firstTid{
+    margin-top: 57%;
+    margin-left: 1%;
+    position: absolute;
+}
+
+.secondTid{
+    margin-top: 222%;
+    margin-left: -2%;
+    position: absolute;
+}
+
+.thirdTid{
+    margin-top: 391.5%;
+    margin-left: 3%;
+    position: absolute;
 }

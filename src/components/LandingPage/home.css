@@ -2,7 +2,7 @@
 
 .desktopCover {
     display: none !important;
- }
+    }
 
 .barriers-home {
     position: relative;
@@ -40,7 +40,7 @@ h1.overlay-text {
     }
     .first {
         display: none !important;
-     }
+        }
     .barriers-home {
         position: relative;
         font-family: 'M PLUS Rounded 1c', sans-serif;

@@ -11,7 +11,7 @@ const WhoWeAre = () =>{
 				<img src="images/landpage_whoweare.svg"></img><br></br>
 					
 				<h2>We are a <strong>student-led organization</strong> at UC Davis seeking to build lasting relationships with older adults through various projects. The gap between older adults and the younger generations does not get any smaller as time goes on.</h2>
-				<button class="learn-more">LEARN MORE ></button>
+				<button class="learn-more" onclick="">learn more </button>
 			</div>
 			
 		</React.Fragment>
