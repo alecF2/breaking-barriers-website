@@ -8,7 +8,7 @@ const Mission = () =>{
 			<div className="mission-main">
 				<h1>Our Mission Statement</h1>
 				<div className="first-frame">
-					<img src="images/circles/LPRectangle500.svg" class="w2frame"></img><br></br>
+					<img src="images/circles/LPRectangle500.svg" class="w2frame"></img>
 					<img src="images/mission.svg" class="dog2"></img><br></br>
 				</div>
 				<h2>Our ultimate goal is to <strong>bridge language and cultural barriers within the underserved elderly population</strong> as well as <strong>inspire a new sense of purpose in college students</strong> as they engage and learn from elderly adults.</h2>
@@ -36,7 +36,7 @@ const Mission = () =>{
 					<img src="images/tidbits3.svg" class="thirdTid"></img><br></br>
 				</div>
 				<p><strong>September 2020.</strong> Yes, we were established during the year of “Miss ‘Rona.” COVID-19 has helped us realize that if we college students were already feeling isolated (w/ Zoom and whatnot), how must our older adults be feeling with the disconnect? And how can we reach out to them?</p>
-			</div>
+			</div><br></br><br></br><br></br>
 			<div class="circle"></div>
 			<div class="circle2"></div>
 

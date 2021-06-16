@@ -83,35 +83,6 @@
     height: 40px;
     background-color: #FFBD59;
   }
-  
-.mission-main button:hover {
-    background-color: #ed9d26;
-    border-radius: 10px;
-    width: auto;
-    text-align: justify;
-    box-shadow: 0 2px black;
-}
-
-.button:active {
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-}
-
-.circle {
-    height:90px;
-    width:45px;
-    border-radius: 0 90px 90px 0;
-    background:#ffbd59;
-    opacity: 50%;
-}
-
-.circle2{
-    background-color: #9fd3fa;
-    height:90px;
-    width:45px;
-    border-radius: 0 90px 90px 0;
-    opacity: 50%;
-}
 
 .dog2{
     position: absolute;
