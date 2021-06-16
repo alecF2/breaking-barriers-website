@@ -114,25 +114,45 @@
 }
 
 .dog2{
-    margin-top: -14%;
-    margin-left: 3%;
     position: absolute;
+}
+
+.w2frame{
+    margin-top: 12px;
+    /*width: 77vw;*/
+	margin-right: 5vw;
+	z-index: -1;
 }
 
 .firstTid{
-    margin-top: 57%;
-    margin-left: 1%;
     position: absolute;
+}
+
+.w3frame{
+    margin-top: -8px;
+    /*width: 77vw;*/
+	margin-right: 3.5vw;
+	z-index: 2;
 }
 
 .secondTid{
-    margin-top: 222%;
-    margin-left: -2%;
     position: absolute;
 }
 
+.w4frame{
+    margin-top: -15px;
+    /*width: 77vw;*/
+	margin-left: 4.5vw;
+	z-index: 2;
+}
+
 .thirdTid{
-    margin-top: 391.5%;
-    margin-left: 3%;
     position: absolute;
+}
+
+.w5frame{
+    margin-top: -14px;
+    /*width: 77vw;*/
+	margin-right: 4.5vw;
+	z-index: 2;
 }
