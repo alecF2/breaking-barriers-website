@@ -11,6 +11,7 @@ const Home = () =>{
 				<h1 class="overlay-text"><q>Breaking</q> that invisible barrier across generations</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus.</p>
 			</div>
+			<img src='images/Vector 2.svg' class='arrow'></img>
 			<br></br>
 		</React.Fragment>
 	);
