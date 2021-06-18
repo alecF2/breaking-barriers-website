@@ -1,0 +1,231 @@
+.barriers-who-we-are{
+    color: #24333F;
+    font-family: 'Poppins';
+    margin-left: 10%;
+    margin-right: 10%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.barriers-who-we-are h1{
+    text-align: center;
+    color: #1D537B;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 900;
+    font-size: 28pt;
+}   
+
+.barriers-who-we-are h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    width: 74.4%;
+    margin: auto;
+}
+
+.barriers-who-we-are button {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    font-style: normal;
+    color: #24333F;
+    border: none;
+    margin: 30.05px 0 20px 0;
+    border-radius: 20px;
+    height: 40px;
+    width: 180px;
+    background-color: #FFBD59;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+.barriers-who-we-are button:hover {
+    background-color: #ed9d26;
+    border-radius: 10px;
+    width: auto;
+    text-align: justify;
+}
+
+.button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.first{
+    position: absolute;
+    left: 0%;
+}
+
+.circles-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.second{
+    position: absolute;
+    top: auto;
+    left: 0%;
+}
+
+/*.dog{
+    margin-top: 31%;
+    margin-left: -2%;
+    position: absolute;
+}*/
+
+.first-frame{
+	margin: 0 auto;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	width: 50vw;
+	margin-top: 7vw;
+}
+
+.dog{
+	position: absolute;
+}
+
+.wframe{
+	margin-top: -31px;
+    /*width: 77vw;*/
+	margin-left: 5vw;
+	z-index: -1;
+
+}
+
+.mission-main{
+    color: #37392e;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-evenly;
+    font-size: 12pt;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mission-main h1{
+    text-align: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 28pt;
+    font-weight: 900;
+    color: #1D537B;
+} 
+
+.mission-main h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    width: 74.4%;
+    margin: auto;
+}
+
+
+.barriers-tidbits-about-us{
+    color: #24333F;
+    font-family: 'Poppins';
+    margin-left: 10%;
+    margin-right: 10%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.barriers-tidbits-about-us h1{
+    text-align: center;
+    color: #1D537B;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 900;
+    font-size: 28pt;
+}
+
+.barriers-tidbits-about-us h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    width: 74.4%;
+    margin: auto;
+}
+
+.barriers-tidbits-about-us p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    width: 74.4%;
+    margin: auto;
+}
+
+.mission-main button {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 16px;
+    margin: 30.05px 0 20px 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 20px;
+    width: 227px;
+    height: 40px;
+    background-color: #FFBD59;
+  }
+
+.dog2{
+    position: absolute;
+}
+
+.w2frame{
+    margin-top: 12px;
+    /*width: 77vw;*/
+	margin-right: 5vw;
+	z-index: -1;
+}
+
+.firstTid{
+    position: absolute;
+}
+
+.w3frame{
+    margin-top: -8px;
+    /*width: 77vw;*/
+	margin-right: 3.5vw;
+	z-index: 2;
+}
+
+.secondTid{
+    position: absolute;
+}
+
+.w4frame{
+    margin-top: -15px;
+    /*width: 77vw;*/
+	margin-left: 4.5vw;
+	z-index: 2;
+}
+
+.thirdTid{
+    position: absolute;
+}
+
+.w5frame{
+    margin-top: -14px;
+    /*width: 77vw;*/
+	margin-right: 4.5vw;
+	z-index: 2;
+}

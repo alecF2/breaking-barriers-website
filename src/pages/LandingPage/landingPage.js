@@ -6,6 +6,8 @@ import Mission from '../../components/LandingPage/mission';
 import WhoWeAre from '../../components/LandingPage/whoWeAre';
 import Navbar from '../../components/Navbar/navbar';
 import Footer from '../../components/Footer/footer';
+import ProjectSlide from '../../components/LandingPage/projectSlideLP';
+
 
 const LandingPage = () => {
 	return(
@@ -13,6 +15,7 @@ const LandingPage = () => {
 			<div className="landingPage-barriers">
 				<Navbar />
 				<Home />
+				<ProjectSlide />
 				<WhoWeAre />
 				<Mission />
 				<Footer />
