@@ -73,12 +73,6 @@
     left: 0%;
 }
 
-/*.dog{
-    margin-top: 31%;
-    margin-left: -2%;
-    position: absolute;
-}*/
-
 .first-frame{
 	margin: 0 auto;
 	align-items: center;
@@ -94,7 +88,6 @@
 
 .wframe{
 	margin-top: -31px;
-    /*width: 77vw;*/
 	margin-left: 5vw;
 	z-index: -1;
 
@@ -192,7 +185,6 @@
 
 .w2frame{
     margin-top: 12px;
-    /*width: 77vw;*/
 	margin-right: 5vw;
 	z-index: -1;
 }
@@ -203,7 +195,6 @@
 
 .w3frame{
     margin-top: -8px;
-    /*width: 77vw;*/
 	margin-right: 3.5vw;
 	z-index: 2;
 }
@@ -214,7 +205,6 @@
 
 .w4frame{
     margin-top: -15px;
-    /*width: 77vw;*/
 	margin-left: 4.5vw;
 	z-index: 2;
 }
@@ -225,7 +215,10 @@
 
 .w5frame{
     margin-top: -14px;
-    /*width: 77vw;*/
 	margin-right: 4.5vw;
 	z-index: 2;
+}
+
+.carousel-dots{
+    color: #ed9d26;
 }

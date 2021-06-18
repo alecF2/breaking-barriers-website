@@ -3,7 +3,13 @@ import React, {Component, useState} from 'react';
 import Slider from 'infinite-react-carousel';
 
 const SimpleSlider = () => (
-  <Slider dots>
+  <Slider dots
+  centerMode="true"
+  adaptiveHeight="true"
+  autoplay="true"
+  centerPadding="12"
+  autoplaySpeed="5000"
+  shift="12">
     <div className="barriers-who-we-are">
 				<h1>Who We Are</h1>
 				<div className="first-frame">
@@ -22,7 +28,7 @@ const SimpleSlider = () => (
 				<h2>Our ultimate goal is to <strong>bridge language and cultural barriers within the underserved elderly population</strong> as well as <strong>inspire a new sense of purpose in college students</strong> as they engage and learn from elderly adults.</h2>
 				<button class="volunteer">volunteer with us!</button>
 			</div>
-    <div>
+    <div className="barriers-tidbits-about-us">
     <h1>Tidbits About Us</h1>
 				<h2>Where are we located?</h2><br></br>
 				<div className="first-frame">
@@ -31,7 +37,7 @@ const SimpleSlider = () => (
 				</div>
         <p><strong>Davis, California!</strong>We are a student organization at the University of California, Davis. The Davis community is a big part of our inspiration. It may be a small college town, but our college town is filled with people of all ages, whether they be young, old, or just passing by—<strong>go Aggies!</strong></p>
     </div>
-    <div>
+    <div className="barriers-tidbits-about-us">
     <h1>Tidbits About Us</h1>
 				<h2>Our Inspiration</h2><br></br>
 				<div className="first-frame">
@@ -40,7 +46,7 @@ const SimpleSlider = () => (
 					</div>
 				<p>Many organizations already exist to help niche populations of older adults with various health conditions. However, <strong>what about the majority of older adults who don’t fall in those niche categories?</strong> We were inspired to serve and reach out to that majority in various ways</p>
     </div>
-    <div>
+    <div className="barriers-tidbits-about-us">
     <h1>Tidbits About Us</h1>
 				<h2>When were we established?</h2><br></br>
 				<div className="first-frame">
