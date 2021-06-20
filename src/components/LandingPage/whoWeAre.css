@@ -1,4 +1,67 @@
-.barriers-who-we-are{
+.barriers-home-part-two{
+    display: flex;
+    flex-direction: row;
+    background-image: url("whoWeAre.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.who-we-are-pic{
+    margin-top: 12vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 9vw;
+    margin-bottom: 12.4vw;
+}
+
+#who-pic{
+    position: absolute;
+    width: 30vw;
+}
+
+#who-frame{
+    width: 30vw;
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+
+.who-we-are-text{
+    margin-top: 12vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 7vw;
+}
+
+.who-we-are-text h1{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 3.5vw;
+    color: #1D537B;
+}
+
+.who-we-are-text p{
+    font-family: 'Poppins', sans-serif;
+    margin-top: -1.4vw;
+    font-size: 1.7vw;
+}
+
+.who-we-are-text-button{
+    text-align: right;
+}
+
+.who-we-are-text-button button{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: bold;
+    font-size: 1.5vw;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 1.5vw;
+    width: 13vw;
+    height: 3vw;
+    border-radius: 13px;
+    border: none;
+    background-color: #FFBD59;
+}
+
+/*.barriers-who-we-are{
     color: #24333F;
     font-family: 'Poppins';
     margin-left: 10%;
@@ -73,12 +136,6 @@
     left: 0%;
 }
 
-/*.dog{
-    margin-top: 31%;
-    margin-left: -2%;
-    position: absolute;
-}*/
-
 .first-frame{
 	margin: 0 auto;
 	align-items: center;
@@ -94,8 +151,7 @@
 
 .wframe{
 	margin-top: -31px;
-    /*width: 77vw;*/
 	margin-left: 5vw;
 	z-index: -1;
 
-}
+}*/

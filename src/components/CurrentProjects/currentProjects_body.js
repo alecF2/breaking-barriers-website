@@ -14,16 +14,15 @@ const CurrentProjects_body = () =>{
 					<div className="current-proj-text">
 						<h1 id="current-proj-title">Current Projects</h1>
 
-						<a>We have partnered up with various local
+						<p>We have partnered up with various local
 						<br/>facilities to provide different programs to
 						<br/>older adults. These local facilities have
 						<br/>different objectives and we have partnered
 						<br/>with them to further enhance the quality of
 						<br/>programming they have for their residents.
-						<br/>Some programs we are currently involved with are:</a>
+						<br/>Some programs we are currently involved with are:</p>
 					</div>
 				</div>
-				<a className="arrow-head">&#8964;</a>
 			</div>
 
 			<div className="barriers-current-proj-body mobile">
@@ -37,15 +36,15 @@ const CurrentProjects_body = () =>{
 			<div className="current-proj-text mobile">
 				<h1 id="current-proj-title">Current Projects</h1>
 
-				<a>We have partnered up with various local
+				<p>We have partnered up with various local
 				facilities to provide different programs to
 				older adults. These local facilities have
 				different objectives and we have partnered
 				with them to further enhance the quality of
 				programming they have for their residents.
-				Some programs we are currently involved with are:</a>
+				Some programs we are currently involved with are:</p>
 
-				<a className="arrow-head">&#8964;</a>
+				<img src='images/Vector 2.svg' className='arrow-head'></img>
 			</div>
 		</React.Fragment>
 	);

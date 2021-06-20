@@ -5,8 +5,25 @@ import React, { useEffect } from 'react';
 const Mission = () =>{
 	return(
 		<React.Fragment>
-			<div className="mission-main">
-				<h1>Our Mission Statement</h1>
+			<div className="barriers-mission">
+				<div className="mission-text">
+					<h1>Our Mission Statement</h1>
+					<p> Our ultimate goal is to bridge language and<br/>
+					cultural barriers within the underserved<br/>
+					elderly population as well as inspire a new<br/>
+					sense of purpose in college students as they<br/>
+					engage and learn from elderly adults.</p>
+					<div className="mission-text-button">
+						<button>volunteer with us!</button>
+					</div>
+				</div>
+				<div className="mission-pic">
+					<img id="mission-pic" src="images/mission-pic.svg"/>
+					<img id="mission-frame" src="images/mission-frame.svg"/>
+				</div>
+			</div>
+			{/*<div className="mission-main">
+				{/*<h1>Our Mission Statement</h1>
 				<div className="first-frame">
 					<img src="images/circles/LPRectangle500.svg" class="w2frame"></img>
 					<img src="images/mission.svg" class="dog2"></img><br></br>
@@ -38,7 +55,7 @@ const Mission = () =>{
 				<p><strong>September 2020.</strong> Yes, we were established during the year of “Miss ‘Rona.” COVID-19 has helped us realize that if we college students were already feeling isolated (w/ Zoom and whatnot), how must our older adults be feeling with the disconnect? And how can we reach out to them?</p>
 			</div><br></br><br></br><br></br>
 			<div class="circle"></div>
-			<div class="circle2"></div>
+			<div class="circle2"></div>*/}
 
 		</React.Fragment>
 	);

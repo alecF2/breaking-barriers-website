@@ -6,7 +6,8 @@
 	background-image: url("forestbg.svg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-bottom: 10vw;
+	padding-bottom: 12.2vw;
+	margin-bottom: 10vw;
 }
 
 .project-row{
@@ -22,12 +23,6 @@
 	flex-direction: column;
 	width: 50vw;
 	margin-top: 7vw;
-}
-
-.arrow-head{
-	font-size: 10vw;
-	color: #fff;
-	/*margin-top: -4vw;*/
 }
 
 #cp-cat{
@@ -48,6 +43,7 @@
 	margin-top: 7vw;
 	margin-right: 6vw;
 	text-align: left;
+	line-height: 1.5;
 }
 
 .current-proj-text h1{
@@ -57,18 +53,19 @@
 	color: #1D537B;
 }
 
-.current-proj-text a{
+.current-proj-text p{
 	font-family: 'Poppins', sans-serif;
-	font-size: 1.5vw;
+    margin-top: -1.4vw;
+    font-size: 1.65vw;
 }
 
 .mobile{
 	display: none;
 }
 
-@media (max-width: 887px){
+@media (max-width: 600px){
 	.current-proj-text{
-		margin-left:0px;
+		margin-left: 0px;
 		margin-bottom: 0px; 
 	}
 
@@ -83,28 +80,30 @@
 	.barriers-current-proj-body{
 		background-image: url("forestbg.svg");
 		background-size: cover;
+		margin-bottom: 3vw;
 	}
 
 	.current-proj-text{
 		align-items: center;
 		display: flex;
 		flex-direction: column;
+		margin-right: 12vw;
+		margin-left: 12vw;
 	}
 
-	.current-proj-text a{
-		font-size: 15px;
-		margin-left: 36px;
+	.current-proj-text p{
+		font-size: 3.5vw;
 	}
 
 	.current-proj-text h1{
-		font-size: 25px;
+		font-size: 8vw;
+		text-align: center;
 	}
 
 	.arrow-head{
-		margin-top: 5px !important;
+		margin-top: 5vw !important;
 		color: black;
 		font-size: 43px !important;
-		margin-bottom: 50vh;
 	}
 
 	#cp-cat, #cp-frame{

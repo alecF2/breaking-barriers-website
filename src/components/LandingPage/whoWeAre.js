@@ -5,14 +5,23 @@ import React, { useEffect } from 'react';
 const WhoWeAre = () =>{
 	return(
 		<React.Fragment>
-			<div className="barriers-who-we-are">
-				<h1>Who We Are</h1>
-				<div className="first-frame">
-					<img src="images/WhoWeAre.svg" class="dog"></img><br></br>
-					<img src="images/circles/LPRectangle600.svg" class="wframe"></img><br></br>
+			<div className="barriers-home-part-two">
+				<div className="who-we-are-pic">
+					<img id="who-pic" src="images/whoWeAre-web-pic.svg"/>
+					<img id="who-frame" src="images/who-we-are-pic-frame.svg"/>
 				</div>
-				<h2>We are a <strong>student-led organization</strong> at UC Davis seeking to build lasting relationships with older adults through various projects. The gap between older adults and the younger generations does not get any smaller as time goes on.</h2>
-				<button class="learn-more" onclick="">learn more </button>
+				<div className="who-we-are-text">
+					<h1>Who We Are</h1>
+					<p> We are a student-led organization at UC<br/>
+					Davis to build lasting relationships<br/>
+					with older adults through carious projects. The<br/>
+					gap between older adults and the younge<br/>
+					generations does not get any smaller as time<br/>
+					goes on</p>
+					<div className="who-we-are-text-button">
+						<button>learn more ></button>
+					</div>
+				</div>
 			</div>
 			
 		</React.Fragment>

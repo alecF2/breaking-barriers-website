@@ -15,9 +15,9 @@ const LandingPage = () => {
 			<div className="landingPage-barriers">
 				<Navbar />
 				<Home />
-				<ProjectSlide />
 				<WhoWeAre />
 				<Mission />
+				<ProjectSlide />
 				<Footer />
 			</div>
 		</React.Fragment>
