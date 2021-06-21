@@ -7,6 +7,7 @@ import WhoWeAre from '../../components/LandingPage/whoWeAre';
 import Navbar from '../../components/Navbar/navbar';
 import Footer from '../../components/Footer/footer';
 import ProjectSlide from '../../components/LandingPage/projectSlideLP';
+import FooterLP from '../../components/FooterLP/footerlp';
 
 
 const LandingPage = () => {
@@ -18,7 +19,7 @@ const LandingPage = () => {
 				<WhoWeAre />
 				<Mission />
 				<ProjectSlide />
-				<Footer />
+				<FooterLP />
 			</div>
 		</React.Fragment>
 	);
