@@ -8,7 +8,7 @@ import Navbar from '../../components/Navbar/navbar';
 import Footer from '../../components/Footer/footer';
 import ProjectSlide from '../../components/LandingPage/projectSlideLP';
 import FooterLP from '../../components/FooterLP/footerlp';
-
+import TidbitsAboutUs from '../../components/LandingPage/tidbitsAboutUs';
 
 const LandingPage = () => {
 	return(
@@ -18,6 +18,7 @@ const LandingPage = () => {
 				<Home />
 				<WhoWeAre />
 				<Mission />
+				<TidbitsAboutUs />
 				<ProjectSlide />
 				<FooterLP />
 			</div>

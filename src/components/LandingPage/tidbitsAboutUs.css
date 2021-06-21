@@ -1,0 +1,94 @@
+:root {
+  --gutter: 20px;
+}
+
+.app {
+  padding: var(--gutter) 0;
+  display: grid;
+  grid-gap: var(--gutter) 0;
+  grid-template-columns: var(--gutter) 1fr var(--gutter);
+  align-content: start;
+}
+
+.app > * {
+  grid-column: 2 / -2;
+}
+
+.app > .full {
+  grid-column: 1 / -1;
+}
+
+.hs {
+  display: grid;
+  grid-gap: calc(var(--gutter) / 2);
+  grid-template-columns: 10px repeat(var(--total), calc(50% - var(--gutter) * 2)) 10px;
+  grid-template-rows: minmax(20px, 1fr);
+  
+  overflow-x: scroll;
+  scroll-snap-type: x proximity;
+  padding-bottom: calc(.75 * var(--gutter));
+  margin-bottom: calc(-.25 * var(--gutter));
+}
+
+.hs:before,
+.hs:after {
+  content: '';
+}
+
+
+/* Demo styles */
+
+
+
+.full {
+  list-style: none;
+  padding: 0;
+}
+
+
+.app {
+  width: 86vw;
+  height: 60vw;
+  overflow-y: scroll;
+  margin-left: 7vw;
+}
+
+.hs > li, .item {
+  scroll-snap-align: center;
+  padding: calc(var(--gutter) / 2 * 1.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.slideshow-pic{
+  width: 30vw;
+}
+
+.slideshow-frame{
+  width: 30vw;
+  z-index: 100;
+  margin-top: -50vw;
+  margin-right: -1vw;
+}
+
+.app h1{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 3.5vw;
+  color: #1D537B;
+  margin-bottom: -1vw;
+}
+
+.lp-slider-content h2{ 
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 2vw;
+  color: #1D537B;
+  font-weight: 500;
+} 
+
+.lp-slider-content p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.4vw;
+}
