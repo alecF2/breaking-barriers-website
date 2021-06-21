@@ -23,14 +23,14 @@ const TidbitsAboutUs = () =>{
 					    		<img className="slideshow-pic" src="images/where-located-pic.svg"/>
 					    		<img className="slideshow-frame" src="images/where-located-frame.svg"/>
 					    	</div>
-					    	<h2>Where are we located?</h2>
-					    	<p>Davis, California! We are a student<br/>
+					    	<h2><strong>Where are we located?</strong></h2>
+					    	<p><strong>Davis, California!</strong> We are a student<br/>
 					    	organization at the University of California,<br/>
 					    	Davis. The Davis community is a big part of<br/>
 					    	our inspiration. It may be a small college town,<br/>
 					    	but our college town is filled with people of all<br/>
 					    	ages, whether they be young, old, or just<br/>
-					    	passing by—go Aggies!</p>
+					    	passing by—<strong>go Aggies!</strong></p>
 					    </div>
 					</li>
 					<li className="item">
@@ -39,12 +39,12 @@ const TidbitsAboutUs = () =>{
 					    		<img className="slideshow-pic" src="images/our-inspiration-pic.svg"/>
 					    		<img className="slideshow-frame" src="images/our-inspiration-frame.svg"/>
 					    	</div>
-					    	<h2>Our Inspiration</h2>
+					    	<h2><strong>Our Inspiration</strong></h2>
 					    	<p>Many organizations already exist to help niche<br/>
 					    	populations of older adults with various health<br/>
-					    	conditions. However, what about the majority<br/>
+					    	conditions. However, <strong>what about the majority<br/>
 					    	of older adults who don’t fall in those niche<br/>
-					    	categories? We were inspired to serve and<br/>
+					    	categories?</strong> We were inspired to serve and<br/>
 					    	reach out to that majority in various ways.<br/></p>
 					   	</div>
 					</li>
@@ -54,8 +54,8 @@ const TidbitsAboutUs = () =>{
 					    		<img className="slideshow-pic" src="images/when-established-pic.svg"/>
 					    		<img className="slideshow-frame" src="images/when-established-frame.svg"/>
 					    	</div>
-					    	<h2>When were we established?</h2>
-					    	<p>September 2020. Yes, we were<br/>
+					    	<h2><strong>When were we established?</strong></h2>
+					    	<p><strong>September 2020. </strong>Yes, we were<br/>
 					    	established during the year of “Miss<br/>
 					    	‘Rona.” COVID-19 has helped us realize<br/>
 					    	that if we college students were already<br/>

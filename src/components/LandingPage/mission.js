@@ -8,10 +8,10 @@ const Mission = () =>{
 			<div className="barriers-mission">
 				<div className="mission-text">
 					<h1>Our Mission Statement</h1>
-					<p> Our ultimate goal is to bridge language and<br/>
+					<p> Our ultimate goal is to <strong>bridge language and<br/>
 					cultural barriers within the underserved<br/>
-					elderly population as well as inspire a new<br/>
-					sense of purpose in college students as they<br/>
+					elderly population</strong> as well as <strong>inspire a new<br/>
+					sense of purpose in college students </strong>as they<br/>
 					engage and learn from elderly adults.</p>
 					<div className="mission-text-button">
 						<button>volunteer with us!</button>
