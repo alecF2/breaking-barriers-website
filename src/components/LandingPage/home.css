@@ -76,7 +76,7 @@
     margin-top: -0.7vw;
 }
 
-@media (max-width: 887px){
+@media (max-width: 620px){
     .barriers-home{
         display: flex;
         flex-direction: column;
