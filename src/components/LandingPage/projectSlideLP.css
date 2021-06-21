@@ -1,3 +1,5 @@
+@media (max-width: 420px){
+
 .barriers-who-we-are{
     color: #24333F;
     font-family: 'Poppins';
@@ -253,7 +255,13 @@
 	margin-right: 4.5vw;
 	z-index: 2;
 }
-
-.carousel-dots{
-    color: #ed9d26;
 }
+@media (min-width: 420px){
+.barriers-who-we-are *, .mission-main *, .barriers-tidbits-about-us *{
+    display: none;
+}
+.sliderY{
+    display: none;
+}
+}
+

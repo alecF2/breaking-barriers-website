@@ -3,7 +3,7 @@ import React, {Component, useState} from 'react';
 import Slider from 'infinite-react-carousel';
 
 const SimpleSlider = () => (
-  <Slider dots
+  <Slider dots className="sliderY"
   arrows={false}
   adaptiveHeight
   autoplay
