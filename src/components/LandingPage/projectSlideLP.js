@@ -4,12 +4,12 @@ import Slider from 'infinite-react-carousel';
 
 const SimpleSlider = () => (
   <Slider dots
-  centerMode="true"
-  adaptiveHeight="true"
-  autoplay="true"
+  arrows={false}
+  adaptiveHeight
+  autoplay
+  centerMode
   centerPadding="0"
-  autoplaySpeed="12000"
-  shift="12">
+  autoplaySpeed="8000">
     <div className="barriers-who-we-are">
 				<h1>Who We Are</h1>
 				<div className="first-frame">
