@@ -141,3 +141,10 @@
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
+@media(max-width: 420px)
+{
+    .app{
+        display: none;
+    }
+}

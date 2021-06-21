@@ -182,3 +182,13 @@
 	margin-right: 4.5vw;
 	z-index: 2;
 }*/
+
+@media(max-width: 420px)
+{
+    .barriers-mission{
+        display: none;
+    }
+    .mission-pic{
+        display: none;
+    }
+}
