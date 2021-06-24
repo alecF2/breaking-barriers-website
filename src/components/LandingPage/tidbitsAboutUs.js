@@ -21,7 +21,6 @@ const TidbitsAboutUs = () =>{
 					   	<div className="lp-slider-content">
 					    	<div className="lp-slider-pic">
 					    		<img className="slideshow-pic" src="images/where-located-pic.svg"/>
-					    		<img className="slideshow-frame" src="images/where-located-frame.svg"/>
 					    	</div>
 					    	<h2><strong>Where are we located?</strong></h2>
 					    	<p><strong>Davis, California!</strong> We are a student<br/>
@@ -37,7 +36,6 @@ const TidbitsAboutUs = () =>{
 					   	<div className="lp-slider-content">
 					    	<div className="lp-slider-pic">
 					    		<img className="slideshow-pic" src="images/our-inspiration-pic.svg"/>
-					    		<img className="slideshow-frame" src="images/our-inspiration-frame.svg"/>
 					    	</div>
 					    	<h2><strong>Our Inspiration</strong></h2>
 					    	<p>Many organizations already exist to help niche<br/>
@@ -49,9 +47,9 @@ const TidbitsAboutUs = () =>{
 					   	</div>
 					</li>
 					<li className="item">
-					    <div className="lp-slider-content">
+					    <div className="lp-slider-content third-slide">
 					    	<div className="lp-slider-pic">
-					    		<img className="slideshow-pic" src="images/when-established-pic.svg"/>
+					    		<img className="slideshow-pic third-pic" src="images/when-established-pic.svg"/>
 					    		<img className="slideshow-frame" src="images/when-established-frame.svg"/>
 					    	</div>
 					    	<h2><strong>When were we established?</strong></h2>

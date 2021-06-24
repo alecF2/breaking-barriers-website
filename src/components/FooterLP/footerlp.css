@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@900&display=swap');
 .barriers-footer-additions{
   overflow-x: hidden !important;
+  z-index: 12;
 }
 
 #addFooterTrees{
@@ -25,7 +26,7 @@
 }
 
 
-@media only screen and (max-width: 887px){
+@media only screen and (max-width: 768px){
   .barriers-footer-additions{
     display: none;
   }
