@@ -7,6 +7,9 @@ const ContactUs_body = () => {
 
   const { executeRecaptcha } = useGoogleReCaptcha();
 
+  const [submitted, setSubmitted] = useState(false);
+  const [postResponse, setPostResponse] = useState('');
+
   // state for keeping track of form data
   const [formData, setFormData] = useState({
     Name: "",
@@ -30,22 +33,32 @@ const ContactUs_body = () => {
     e.preventDefault();
 
     if(!executeRecaptcha) {
-      console.log("Execute recaptcha not yet available");
+      // console.log("Execute recaptcha not yet available");
+      setPostResponse('reCAPTCHA has not finished initializing; please wait a few moments before submitting');
+      setSubmitted(true);
+      return;
     }
     formData.token = await executeRecaptcha();
+
     // POST request to server:
-    await fetch('/api/contact_us', {
+    const res = await fetch('/api/contact_us', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(formData)
     });
-    setFormData({
-      Name: "",
-      email: "",
-      message: "",
-      subject: "Breaking Barriers Inquiry",
-      token: "",
-    });
+    const response = await res.json();
+    const message = response.message;
+    setPostResponse(message);
+    setSubmitted(true);
+    if (message == 'Email sent!') {
+      setFormData({
+        Name: "",
+        email: "",
+        message: "",
+        subject: "Breaking Barriers Inquiry",
+        token: "",
+      });
+    }
   };
 
   return (
@@ -99,6 +112,9 @@ const ContactUs_body = () => {
                 }
               />
             </form>
+            <p style={{ display: submitted ? "block" : "none" }}>
+              { postResponse }
+            </p>
           </div>
         </div>
       </div>
