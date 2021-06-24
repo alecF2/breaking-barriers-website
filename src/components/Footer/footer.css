@@ -121,9 +121,7 @@
 }
 
 .footer-heart{
-  color: red;
-  font-weight: 900;
-  font-size: 2vw;
+  font-size: 5vw;
 }
 
 .social-logos{
@@ -181,7 +179,7 @@
   }
 
   .footer-heart{
-    font-size: 5vw;
+    font-size: 10vw;
   }
 
   #footer-instagram{

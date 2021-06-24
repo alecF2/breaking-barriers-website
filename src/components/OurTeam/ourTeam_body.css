@@ -20,11 +20,13 @@
   padding-right: 7%;
   margin: 0;
   font-family: 'Poppins', sans-serif;
+  font-size: 1.65vw;
 }
 
 .headings {
   color: #1D537B;
   font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 3.5vw;
 }
 
 .list-style {
@@ -39,13 +41,17 @@
     background-image: url('mobile_1.png');
     background-size: cover;
     background-repeat: no-repeat;
-    
+  }
+
+  .barriers-our-team-body p{
+    padding-bottom: 19vw;
   }
 
   .margin-text {
     margin-left: 10%;
     margin-right: 10%;
     font-family: 'Poppins', sans-serif;
+    font-size: 3.5vw;
   }
 
   .our-team{
@@ -71,12 +77,17 @@
     padding-top: 3%;
     padding-bottom: 3%;
     font-family: 'Poppins', sans-serif;
-    font-size: 13px;
+  }
+
+  .team-list li{
+    font-size: 3.5vw;
   }
 
   .team-center {
     text-align: center;
     color:#1D537B;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 8vw;
   }
 
   .image-size {
@@ -90,6 +101,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 5vw;
   }
 
   .desktop-image-size1{
@@ -132,6 +144,7 @@
   
   .team-list {
     padding: 0 20px;
+    margin-bottom: 5vw;
   }
   
   .team-list ul {
@@ -167,7 +180,7 @@
   } 
 
   .team-background-Desktop {
-    background-image: url('images/zoom_background_3.png');
+    background-image: url('forest_bg_ourTeam.svg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -183,48 +196,26 @@
     /* padding-bottom: 500vh; */
   }
 
-  /* @media only screen and (min-width: 1024px) {
-    body {
-      background-color: white;
-    }
-    .our-team {
-      background-image: url('images/zoom_background_3.png');
-      background-size: contain;
-      width:150%;
-      height: 100vh;
-      padding-bottom: 0;
-    }
-    .image-two {
-      width: 50%;
-      margin-left: 8%;
-      margin-top: 4%;
-      float: left;
-      padding-right: 5%;  
-      height: 23em;  
+  .team-subtitle-volunteer{
+    font-size: 4vw;
+  }
 
-    }
-    #p1 {
-      float: right;
-      padding-bottom:-50%;
-      margin-top: 10%;
-      height: 20vh;
-    }
-    .flex-container{
-      display: flex;
-    }
 
-    .barriers-our-team-body {
-      background-image: none;
-    }
-  } */
-
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 768px) {
     .team-background{
       display: none;
     }
     .team-background-Desktop {
 
       display: block;
+    }
+
+    .team-list li{
+      font-size: 1.65vw;
+    }
+
+    .margin-shift{
+      font-size: 1.7vw;
     }
 
     .mobile {

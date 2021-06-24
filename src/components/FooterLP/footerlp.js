@@ -37,7 +37,7 @@ const FooterLP = () =>{
 						</div>
 					</div>
 					<div className="footer-column footer-five">
-						<a>Made with <span className="footer-heart">&#9825;</span><br/>
+						<a>Made with <span><img className="footer-heart" src="images/footer-heart.svg"/></span><br/>
 						by <span className="footer-yellow">#include @ Davis</span></a>
 					</div>
 					<div className="footer-column footer-six">
@@ -55,7 +55,7 @@ const FooterLP = () =>{
 							<img id="footer-facebook" className="social-logos" src="images/facebook.svg"/>
 							<img id="footer-instagram" className="social-logos" src="images/instagram.svg"/>
 							<div className="include-motto">
-								<a>Made with <span className="footer-heart">&#9825;</span><br/>
+								<a>Made with <span><img className="footer-heart" src="images/footer-heart.svg"/></span><br/>
 								by <span className="footer-yellow">#include @ Davis</span></a>
 							</div>
 						</div>

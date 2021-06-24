@@ -26,7 +26,7 @@
   	background-color: #FFBD59;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 	.cp-contact button{
 		font-size: 3.5vw;
 		width: 25vw;

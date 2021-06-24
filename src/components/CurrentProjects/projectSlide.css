@@ -74,19 +74,12 @@
     /* padding-left: 15%;
     padding-right: 15%; */
 }
-/*.CPBimg1 {
-    max-height: 800px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:75%;
-    justify-content: Left;
-    align-self: left;
-    border-radius: 5%;
-}
-.CPBimg2 {
 
-}*/
+.CPloader{
+    width: 15vw;
+    margin-left: 40vw;
+}
+
 .right-arrow {
     position: absolute;
     bottom: 1px;
@@ -138,7 +131,7 @@
 
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
     .CPSlideDiv-Web {
         display: none;
     }
@@ -159,20 +152,20 @@
         background-image: url('CPGroup120.svg'), url('CPEllipse69.svg');
         background-repeat: no-repeat, no-repeat;
         background-position: top right, bottom left;
-        background-size: 150px, 150px;
+        background-size: 100px, 100px;
     }
     .CPPen {
         background-image: url('CPGroup121.svg'), url('CPEllipse69_2.svg');
         background-repeat: no-repeat, no-repeat;
         background-position: bottom left, top right;
-        background-size: 150px, 150px;
+        background-size: 100px, 100px;
         padding-top:5%;
     }
     .CPArt {
         background-image: url('CPGroup122.svg'), url('CPEllipse71.svg');
         background-repeat: no-repeat, no-repeat;
         background-position: top right, bottom left;
-        background-size: 150px, 150px;
+        background-size: 100px, 100px;
         padding-top:5%;
     }
     .CPwImg {

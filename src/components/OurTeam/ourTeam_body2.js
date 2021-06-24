@@ -12,7 +12,7 @@ const OurTeam_body2 = () =>{
 						Meet Our Volunteers
 					</h2>
 				</div>
-					<p className="barriers-our-team-body team-center">Our volunteers are a group of creative, talented individuals</p>
+					<p className="barriers-our-team-body team-center team-subtitle-volunteer">Our volunteers are a group of creative, talented individuals</p>
 					<img className="image-size1" src="images/volunteers_ourTeam.png"></img>
 					<div class="ul-holder">
 						<div class="team-list">
