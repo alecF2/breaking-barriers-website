@@ -34,7 +34,7 @@ const ContactUs_body = () => {
     }
     formData.token = await executeRecaptcha();
     // POST request to server:
-    await fetch('/contact_us', {
+    await fetch('/api/contact_us', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(formData)
@@ -44,6 +44,7 @@ const ContactUs_body = () => {
       email: "",
       message: "",
       subject: "Breaking Barriers Inquiry",
+      token: "",
     });
   };
 
@@ -57,7 +58,7 @@ const ContactUs_body = () => {
               If you are interested in volunteering or partnering with us,
               please feel free to contact us below!
             </p>
-            <form>
+            <form onSubmit={handleSubmit}>
               <label>
                 NAME:
                 <input
@@ -75,6 +76,7 @@ const ContactUs_body = () => {
                   name="email"
                   onChange={handleChange}
                   className="secondInput"
+                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
                 />
               </label>
               <label>
@@ -90,14 +92,12 @@ const ContactUs_body = () => {
               </label>
               <br />
               {/* button should be disabled until all 3 fields are filled */}
-              <button
+              <input
+                type="submit"
                 disabled={
                   !(formData.Name && formData.email && formData.message)
                 }
-                onClick={handleSubmit}
-              >
-                Submit
-              </button>
+              />
             </form>
           </div>
         </div>
