@@ -16,7 +16,7 @@ app.use(cors({
 // in case CORS gets bypassed
 app.use(async (req, res, next) => {
     console.log(req.get('origin'));
-    if (req.get('origin') != 'https://breaking-barriers-davis.web.app') {
+    if (req.get('origin') != 'https://breaking-barriers-davis.web.app' && req.get('origin') != 'http://localhost:5000') {
         res.status(401).send('Not authorized.');
         return;
     }
@@ -40,11 +40,13 @@ app.post("/api/contact_us", async (req, res) => {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' }
         });
+        console.log('fetch finished.')
     } catch(err) {
         res.send({ message: "could not verify reCAPTCHA with Google; please try again in a few moments."});
         return;
     }
     const data = await response.json();
+    console.log("user's score:", data.score);
 
     const mailOptions = {
         from: `${req.body.Name} [${req.body.email}] <process.env.EMAIL_USER>`,

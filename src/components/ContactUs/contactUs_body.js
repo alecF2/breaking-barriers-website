@@ -7,6 +7,9 @@ const ContactUs_body = () => {
 
   const { executeRecaptcha } = useGoogleReCaptcha();
 
+  const [submitted, setSubmitted] = useState(false);
+  const [postResponse, setPostResponse] = useState('');
+
   // state for keeping track of form data
   const [formData, setFormData] = useState({
     Name: "",
@@ -30,21 +33,32 @@ const ContactUs_body = () => {
     e.preventDefault();
 
     if(!executeRecaptcha) {
-      console.log("Execute recaptcha not yet available");
+      // console.log("Execute recaptcha not yet available");
+      setPostResponse('reCAPTCHA has not finished initializing; please wait a few moments before submitting');
+      setSubmitted(true);
+      return;
     }
     formData.token = await executeRecaptcha();
+
     // POST request to server:
-    await fetch('/contact_us', {
+    const res = await fetch('/api/contact_us', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(formData)
     });
-    setFormData({
-      Name: "",
-      email: "",
-      message: "",
-      subject: "Breaking Barriers Inquiry",
-    });
+    const response = await res.json();
+    const message = response.message;
+    setPostResponse(message);
+    setSubmitted(true);
+    if (message == 'Email sent!') {
+      setFormData({
+        Name: "",
+        email: "",
+        message: "",
+        subject: "Breaking Barriers Inquiry",
+        token: "",
+      });
+    }
   };
 
   return (
@@ -57,7 +71,7 @@ const ContactUs_body = () => {
               If you are interested in volunteering or partnering with us,
               please feel free to contact us below!
             </p>
-            <form>
+            <form onSubmit={handleSubmit}>
               <label>
                 NAME:
                 <input
@@ -75,6 +89,7 @@ const ContactUs_body = () => {
                   name="email"
                   onChange={handleChange}
                   className="secondInput"
+                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
                 />
               </label>
               <label>
@@ -90,15 +105,16 @@ const ContactUs_body = () => {
               </label>
               <br />
               {/* button should be disabled until all 3 fields are filled */}
-              <button
+              <input
+                type="submit"
                 disabled={
                   !(formData.Name && formData.email && formData.message)
                 }
-                onClick={handleSubmit}
-              >
-                Submit
-              </button>
+              />
             </form>
+            <p style={{ display: submitted ? "block" : "none" }}>
+              { postResponse }
+            </p>
           </div>
         </div>
       </div>
