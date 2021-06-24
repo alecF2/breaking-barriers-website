@@ -11,10 +11,10 @@ const OurTeam_body = () =>{
 				<img className="image-two" src="images/Group_128_ourTeam.png"></img> 
 			</div>
 			<p class="margin-text" id="p1"> 
-				Breaking Barriers is comprised of compassionate and 
-					dedicated students from various disciplines and backgrounds. 
-					We are a diverse bunch with the 
-					common goal of “breaking barriers. </p>
+				<strong>Breaking Barriers</strong> is comprised of compassionate and 
+				dedicated students from various disciplines and backgrounds. 
+				We are a diverse bunch with the 
+				common goal of “breaking barriers. </p>
 
 			<div className="barriers-our-team-body">
 				<h2 className="team-center">Meet Our Officers</h2>

@@ -38,9 +38,7 @@ const ProjectSlide = ({ slides }) =>{
 								<h1 className='CPTitle'> {slide.titleText} </h1>
 								<p className='CPsubtitle'> {slide.CPsubtitle}  </p>
 								<p className='CPCaption'> {slide.CPCaption} </p>
-								{/* <img className='CPBimg1' src={slide.CPBimg1} alt='bkgd_im1'/>
-								<img className='CPBimg2' src={slide.CPBimg2} alt='bkgd_im2'/> */}
-								{/* <IoIosArrowDown className='down-arrow'/> */}
+								<img className='CPloader' src={slide.CPloader} alt='loader'/>
 							</div>
 						)}
 						

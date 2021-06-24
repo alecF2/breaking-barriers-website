@@ -37,6 +37,7 @@ const ProjectSlide_OurTeam = ({ slides }) =>{
 								<h2 className='CPTitle-1'> {slide.titleText} </h2>
 								<p className='CPsubtitle-1'> {slide.CPsubtitle}  </p>
 								<p className='CPCaption-1'> {slide.CPCaption} </p>
+								<img className='loader' src={slide.CPloader} alt='loader'/>
 							</div>
 							<div className="team-desktop">
 								<table style={{"width" : "100%"}}>

@@ -10,9 +10,15 @@ const Ul = styled.ul`
   li {
     padding: 30px 25px;
   }
+
+  li:active{
+    text-decoration: underline;
+    text-decoration-color: #859062;
+  }
+
   li a {
     font-family: 'M PLUS Rounded 1c';
-    font-weight: 500;
+    font-weight: bold;
     font-size: 18px;
     color: #37392E;
     text-decoration: none;
@@ -20,9 +26,15 @@ const Ul = styled.ul`
   li a:hover {
     color: 37392E;
     text-decoration: underline;
-    text-decoration-color: #37392E;
+    text-decoration-color: #859062;
   }
-  @media (max-width: 768px) {
+
+  li a:active {
+    text-decoration: underline;
+    text-decoration-color: #859062;
+  }
+
+  @media (max-width: 776px) {
     margin-top: 90px;
     flex-flow: column nowrap;
     background-color: #fff;

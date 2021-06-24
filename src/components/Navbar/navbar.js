@@ -22,7 +22,7 @@ const NavMobile = styled.nav`
   .menu-mobile{
     display: none;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 776px) {
     text-align: center;
     align-items: center;
     .logo{
