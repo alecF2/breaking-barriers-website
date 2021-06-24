@@ -9,7 +9,7 @@ const SimpleSlider = () => (
   autoplay
   centerMode
   centerPadding="0"
-  autoplaySpeed="0000">
+  autoplaySpeed="5000">
     <div className="barriers-who-we-are">
 				<h1>Who We Are</h1>
 				<div className="first-frame">
