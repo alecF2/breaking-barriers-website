@@ -25,7 +25,7 @@
     background-image: url('CPGroup120.svg'), url('CPEllipse69.svg');
     background-repeat: no-repeat, no-repeat;
     background-position: top right, bottom left;
-    background-size: 100px, 100px;
+    background-size: 80px, 80px;
 }
 
 .CPimage {
@@ -36,6 +36,7 @@
     justify-content: center;
     align-self: center;
     border-radius: 5%;
+    margin-bottom: -3vw;
 }
 
 .CPTitle {
@@ -45,6 +46,7 @@
     color: #1D537B;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 8vw;
+    margin-bottom: 1vw;
     /* padding-left: 25%;
     padding-right: 25%; */
 }
@@ -152,20 +154,20 @@
         background-image: url('CPGroup120.svg'), url('CPEllipse69.svg');
         background-repeat: no-repeat, no-repeat;
         background-position: top right, bottom left;
-        background-size: 100px, 100px;
+        background-size: 90px, 90px;
     }
     .CPPen {
         background-image: url('CPGroup121.svg'), url('CPEllipse69_2.svg');
         background-repeat: no-repeat, no-repeat;
         background-position: bottom left, top right;
-        background-size: 100px, 100px;
+        background-size: 90px, 90px;
         padding-top:5%;
     }
     .CPArt {
         background-image: url('CPGroup122.svg'), url('CPEllipse71.svg');
         background-repeat: no-repeat, no-repeat;
         background-position: top right, bottom left;
-        background-size: 100px, 100px;
+        background-size: 90px, 90px;
         padding-top:5%;
     }
     .CPwImg {

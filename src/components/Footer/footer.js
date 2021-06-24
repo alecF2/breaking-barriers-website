@@ -21,7 +21,7 @@ const Footer = () =>{
 						<a className="footer-links">Contact Us</a>
 					</div>
 					<div className="footer-column footer-four">
-						<a>Connect With Us!</a>
+						<a className="connecting">Connect With Us!</a>
 						<div className="footer-socials">
 							<img className="social-logos" src="images/facebook.svg"/>
 							<a>Like our Facebook Page</a>

@@ -71,6 +71,8 @@
     background-image: url('mobile_3.png');
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 13vw;
+    margin-bottom: -15vw;
   }
 
   .team-list {
@@ -88,6 +90,7 @@
     color:#1D537B;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 8vw;
+    margin-bottom: -2vw;
   }
 
   .image-size {
@@ -198,6 +201,8 @@
 
   .team-subtitle-volunteer{
     font-size: 4vw;
+    margin-bottom: 5vw;
+    color: #24333F;
   }
 
 
