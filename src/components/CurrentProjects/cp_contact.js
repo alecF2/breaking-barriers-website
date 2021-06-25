@@ -15,7 +15,7 @@ const CP_Contact = () =>{
 					interested in partnering with, please do 
 					not hesitate to contact us!
 				</div>
-				<button>Contact Us</button>
+				<button><a href="/contactUs" >Contact Us</a></button>
 			</div>
 		</React.Fragment>
 	);

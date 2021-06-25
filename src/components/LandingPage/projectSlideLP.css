@@ -52,21 +52,14 @@
     color: #24333F;
     border: none;
     margin: 10vw 5vw 10vw 30vw;
-    border-radius: 20px;
-    height: 10vw;
-    width: 40vw;
+    border-radius: 30px;
+    width: 30vw;
+    height: 8vw;
     background-color: #FFBD59;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 
-  
-.barriers-who-we-are button:hover {
-    background-color: #ed9d26;
-    border-radius: 10px;
-    width: auto;
-    text-align: justify;
-}
 
 .button:active {
     box-shadow: 0 5px #666;
@@ -225,13 +218,13 @@
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 3.5vw;
+    font-size: 3.0vw;
     margin: 10vw 5vw 10vw 31vw;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border: none;
-    border-radius: 20px;
-    height: 10vw;
-    width: 40vw;
+    border-radius: 30px;
+    width: 30vw;
+    height: 8vw;
     background-color: #FFBD59; 
   }
 

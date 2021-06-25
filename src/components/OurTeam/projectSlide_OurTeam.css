@@ -13,6 +13,8 @@
 
     background-size: contain;
     background-position: bottom right;
+
+    width: 98.4vw;
 }
 
 .team-padding-bottom {
@@ -149,12 +151,20 @@
     padding-top: 5vw;
     overflow-y: hidden; /* Hide vertical scrollbar */
     overflow-x: hidden; /* Hide horizontal scrollbar */
-    padding-bottom: 15vw;
+    padding-bottom: 20vw;
 }
 
-.loader{
+.loader-mobile{
     padding-top: 5vw;
-    margin-left: 30vw;
+    margin-left: 37vw;
+    width: 20vw;
+}
+
+.loader-desktop{
+    margin-top: 5vw;
+    margin-left: 1.5vw;
+    width: 15vw;
+    padding-bottom: 1.8vw;
 }
 
 @media only screen and (min-width: 768px) {

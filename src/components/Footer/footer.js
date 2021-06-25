@@ -15,10 +15,10 @@ const Footer = () =>{
 						<a id="subtitle">Student organisation at<br/><span className="footer-yellow">University of California, Davis</span></a>
 					</div>
 					<div className="footer-column footer-three">
-						<a className="footer-links">Home</a>
-						<a className="footer-links">Our Team</a>
-						<a className="footer-links">Current Projects</a>
-						<a className="footer-links">Contact Us</a>
+						<a href="/" className="footer-links">Home</a>
+						<a href="/team" className="footer-links">Our Team</a>
+						<a href="/currentProjects" className="footer-links">Current Projects</a>
+						<a href="/contactUs" className="footer-links">Contact Us</a>
 					</div>
 					<div className="footer-column footer-four">
 						<a className="connecting">Connect With Us!</a>

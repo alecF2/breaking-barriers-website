@@ -26,6 +26,11 @@
   	background-color: #FFBD59;
 }
 
+.cp-contact button>a{
+	text-decoration: none;
+	color: #37392E;
+}
+
 @media only screen and (max-width: 768px) {
 	.cp-contact button{
 		font-size: 3.5vw;
