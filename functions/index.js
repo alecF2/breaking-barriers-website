@@ -34,18 +34,18 @@ const transporter = nodemailer.createTransport({
 
 app.post("/api/contact_us", async (req, res) => {
     // Sending token to get verified
-    let response;
+    let response, data;
     try {
         response = await fetch(`https://www.google.com/recaptcha/api/siteverify?secret=${functions.config().recaptcha.secret}&response=${req.body.token}`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' }
         });
         console.log('fetch finished.')
+        data = await response.json();
     } catch(err) {
-        res.send({ message: "could not verify reCAPTCHA with Google; please try again in a few moments."});
+        res.send({ message: "Could not verify reCAPTCHA with Google; please try again in a few moments."});
         return;
     }
-    const data = await response.json();
     console.log("user's score:", data.score);
 
     const mailOptions = {
