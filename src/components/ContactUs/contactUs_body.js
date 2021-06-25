@@ -41,12 +41,20 @@ const ContactUs_body = () => {
     formData.token = await executeRecaptcha();
 
     // POST request to server:
-    const res = await fetch('/api/contact_us', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(formData)
-    });
-    const response = await res.json();
+    let res, response;
+    try {
+      res = await fetch('/api/contact_us', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData)
+      });
+      response = await res.json();
+    } catch(err) {
+      console.log(err);
+      setPostResponse('Failed to contact server; try again in a few moments.');
+      setSubmitted(true);
+      return;
+    }
     const message = response.message;
     setPostResponse(message);
     setSubmitted(true);
