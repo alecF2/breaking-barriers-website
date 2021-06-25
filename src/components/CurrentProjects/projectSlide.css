@@ -47,9 +47,8 @@
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 8vw;
     margin-bottom: 1vw;
-    /* padding-left: 25%;
-    padding-right: 25%; */
 }
+
 .CPsubtitle {
     max-width: 100%;
     text-align: left;
@@ -179,7 +178,7 @@
     .CPwTitle {
         color: #1D537B;
         font-family: 'M PLUS Rounded 1c', sans-serif;
-        font-size: 3.5vw;
+        font-size: 3.2vw;
         padding-left: 5vw;
         padding-right: 5vw; 
     }
