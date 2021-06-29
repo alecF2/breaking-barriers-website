@@ -1,6 +1,6 @@
 export const SliderData_OurTeam = [
     {
-        CPimage: 'images/Kevin_ourTeam.svg',
+        CPimage: 'images/kevin_ourTeam.svg',
         titleText: 'Kevin Ta',
         CPCaption: 'Hey everyone! My name is Kevin Ta and I am currently a fourth year majoring in Sociology. Being Co-President of Breaking Barriers, I learned that older adults are full of life and stories, ready to be shared with those who want to listen. My relationship with my older adult has taught me to cherish life and that it is never too late to try new things. As I listen to her stories, I become excited and rejuvenated. My goal with Breaking Barriers is to connect more college students with older adults so that they may be able to listen to these stories and gain a new sense of life.',
         CPsubtitle: 'Co-President',
