@@ -34,6 +34,9 @@ Make sure to use Git Bash to run these commands.
 
 ## Deploying your changes
 * `cd <path_to_directory>`
+* `cd functions`
+* `npm install`
+* `cd ..`
 * `npm run build`
 * `firebase deploy`
 * Note: try to not deploy more than twice a day, as there are bandwidth restrictions on Firebase, and exceeding 1GB in a day will incur charges (a single deploy uses ~450MB bandwidth)
