@@ -112,6 +112,12 @@ const ContactUs_body = () => {
                 ></textarea>
               </label>
               <br />
+              <p
+                className="error"
+                style={{ display: submitted ? "block" : "none" }}
+              >
+                { postResponse }
+              </p>
               {/* button should be disabled until all 3 fields are filled */}
               <input
                 type="submit"
@@ -120,9 +126,6 @@ const ContactUs_body = () => {
                 }
               />
             </form>
-            <p style={{ display: submitted ? "block" : "none" }}>
-              { postResponse }
-            </p>
           </div>
         </div>
       </div>

@@ -15,7 +15,7 @@ const WhoWeAre = () =>{
 					<p> We are a <strong>student-led organization at UC<br/>
 					Davis </strong>to build lasting relationships<br/>
 					with older adults through carious projects. The<br/>
-					gap between older adults and the younge<br/>
+					gap between older adults and the younger<br/>
 					generations does not get any smaller as time<br/>
 					goes on</p>
 					<div className="who-we-are-text-button">

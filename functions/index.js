@@ -36,12 +36,16 @@ app.post("/api/contact_us", async (req, res) => {
     // Sending token to get verified
     let response, data;
     try {
-        response = await fetch(`https://www.google.com/recaptcha/api/siteverify?secret=${functions.config().recaptcha.secret}&response=${req.body.token}`, {
+        response = await fetch(`https://www.google.com/recaptcha/api/siteverify?secret=${functions.config().recaptcha.secret}&response=${`req.body.token`}`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' }
         });
         console.log('fetch finished.')
         data = await response.json();
+        if (!data.success) {
+            console.log("didn't work")
+            throw err;
+        }
     } catch(err) {
         res.send({ message: "Could not verify reCAPTCHA with Google; please try again in a few moments."});
         return;
