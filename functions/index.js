@@ -53,7 +53,7 @@ app.post("/api/contact_us", async (req, res) => {
     console.log("user's score:", data.score);
 
     const mailOptions = {
-        from: `${req.body.Name} [${req.body.email}] <process.env.EMAIL_USER>`,
+        from: `${req.body.Name} [${req.body.email}] <${functions.config().email.user}>`,
         to: functions.config().email.receiver,
         subject: `${req.body.subject} from ${req.body.Name}`,
         text: `Use an HTML enabled client to view this email.`,
