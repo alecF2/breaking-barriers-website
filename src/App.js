@@ -26,7 +26,7 @@ function App() {
       <div className="App">
         <Switch>
           <Route path="/contactUs">
-            <GoogleReCaptchaProvider className=".grecaptcha-badge" reCaptchaKey="6Lfqa_AaAAAAAKPs09IqvoUnYdQ3WxwDIxy0YVYj">
+            <GoogleReCaptchaProvider className=".grecaptcha-badge" reCaptchaKey="6LfP42wbAAAAAFydv0uuUmKOq6EXWW0GkG0u5P8j">
               <ContactUs />
             </GoogleReCaptchaProvider>
           </Route>
