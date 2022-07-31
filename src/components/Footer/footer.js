@@ -12,7 +12,7 @@ const Footer = () =>{
 					</div>
 					<div className="footer-column footer-two">
 						<a id="title">Breaking Barriers</a>
-						<a id="subtitle">Student organisation at<br/><span className="footer-yellow">University of California, Davis</span></a>
+						<a id="subtitle">Student organization at<br/><span className="footer-yellow">University of California, Davis</span></a>
 					</div>
 					<div className="footer-column footer-three">
 						<a href="/" className="footer-links">Home</a>
@@ -24,16 +24,16 @@ const Footer = () =>{
 						<a className="connecting">Connect With Us!</a>
 						<div className="footer-socials">
 							<img className="social-logos" src="images/facebook.svg"/>
-							<a>Like our Facebook Page</a>
+							<a href="https://www.facebook.com/breakingbarriersdavis">Like our Facebook Page</a>
 						</div>
 						<div className="footer-socials">
 							<img className="social-logos" src="images/instagram.svg"/>
-							<a>Follow our Instagram</a>
+							<a href="https://www.instagram.com/breakingbarriersdavis">Follow our Instagram</a>
 						</div>
 					</div>
 					<div className="footer-column footer-five">
 						<a>Made with <span><img className="footer-heart" src="images/footer-heart.svg"/></span><br/>
-						by <span className="footer-yellow">#include @ Davis</span></a>
+						by <span className="footer-yellow"><a href="http://www.includedavis.com/">#include @ Davis</a></span></a>
 					</div>
 					<div className="footer-column footer-six">
 						<img id="footer_tree_two" className="footer_img" src="images/footer-tree-dark.svg"/>
@@ -47,11 +47,11 @@ const Footer = () =>{
 					<div className="footer-column footer-two">
 						<a id="title">Breaking Barriers</a>
 						<div className="mobile-footer-socials">
-							<img id="footer-facebook" className="social-logos" src="images/facebook.svg"/>
-							<img id="footer-instagram" className="social-logos" src="images/instagram.svg"/>
+							<a href="https://www.facebook.com/breakingbarriersdavis"><img id="footer-facebook" className="social-logos" src="images/facebook.svg"/></a>
+							<a href="https://www.instagram.com/breakingbarriersdavis"><img id="footer-instagram" className="social-logos" src="images/instagram.svg"/></a>
 							<div className="include-motto">
 								<a>Made with <span><img className="footer-heart" src="images/footer-heart.svg"/></span><br/>
-								by <span className="footer-yellow">#include @ Davis</span></a>
+								by <span className="footer-yellow"><a href="http://www.includedavis.com/">#include @ Davis</a></span></a>
 							</div>
 						</div>
 					</div>

@@ -82,11 +82,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-image: url("home-mobile-background.svg");
+        background-image: url("home_hands.jpg");
     }
 
     .barriers-home h1{
-        color: #24333F;
+        color: hsl(0, 0%, 100%);
         margin-top: 25vw;
         margin-bottom: 30vw;
         font-family: 'M PLUS Rounded 1c', sans-serif;

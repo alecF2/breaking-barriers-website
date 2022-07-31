@@ -13,91 +13,68 @@ const OurTeam_body2 = () =>{
 					</h2>
 				</div>
 					<p className="barriers-our-team-body team-center team-subtitle-volunteer">Our volunteers are a group of creative, talented individuals</p>
-					<img className="image-size1" src="images/volunteers_ourTeam.png"></img>
-					<div class="ul-holder">
-						<div class="team-list">
+					<img className="image-size1" src="group.jpeg"></img>
+					<div class="ul-holder-desktop margin-shift">						
 							<ul>
-								<li>
-									<i class="fa fa-check"></i>Erica Chiu
-								</li>
-								<li>
-									<i class="fa fa-check"></i> Joan Oclarit
-								</li>
-								<li>
-									<i class="fa fa-check"></i> Celia Murillo
-								</li>
-								<li>
-									<i class="fa fa-check"></i>Raelleah Moore
-								</li>
-								<li>
-									<i class="fa fa-check"></i>Sally Ho
-								</li>
-								<li>
-									<i class="fa fa-check"></i>Meena Yuqob
-								</li>
-								<li>
-									<i class="fa fa-check"></i>Andy Nguyen
-								</li>
-								<li>
-									<i class="fa fa-check"></i>Pooja Dandekar
-								</li>
-								<li>
-									<i class="fa fa-check"></i>Felicity Barron 
-								</li>
-								<li>
-									<i class="fa fa-check"></i>Isabelle Schlegel
-								</li>
-								<li>
-									<i class="fa fa-check"></i>Iqra Amir
-								</li>
 								<li>
 									<i class="fa fa-check"></i>Andrea Lopez
 								</li>
 								<li>
-									<i class="fa fa-check"></i>Diksha Kudlamath
-								</li>
-							</ul>
-						</div>
-						<div class="team-list">
-							<ul>
-								<li>
-									<i class="fa fa-check"></i>Tiffany Lo
+									<i class="fa fa-check"></i> Ngoc Le
 								</li>
 								<li>
-									<i class="fa fa-check"></i>Emily Lam
+									<i class="fa fa-check"></i> Tulika Singhal
 								</li>
-								<li>
-									<i class="fa fa-check"></i>Ulysis Gudin Lucas
-								</li>
-								<li>
-									<i class="fa fa-check"></i>Ngoc Le
-								</li>
-								<li>
-									<i class="fa fa-check"></i>Shria Akalamkam
-								</li>
-								<li>
-									<i class="fa fa-check"></i>Jessica Cai
-								</li>
-								<li>
-									<i class="fa fa-check"></i>Tulika Singhal
-								</li>
-								<li>
-									<i class="fa fa-check"></i>Sameeha Salman
-								</li>
-								<li>
+	              				<li>
 									<i class="fa fa-check"></i>Shaian Mostaghni
 								</li>
-								<li>
+	              				<li>
 									<i class="fa fa-check"></i>Jagnoor Randhawa
 								</li>
 								<li>
-									<i class="fa fa-check"></i>Jaya Verma
+									<i class="fa fa-check"></i>Rashmi Parashar
 								</li>
 								<li>
-									<i class="fa fa-check"></i>Meagan Kerklin
+									<i class="fa fa-check"></i>Ivy Nguyen
+								</li>
+								<li>
+									<i class="fa fa-check"></i>Addison Ali
+								</li>
+								<li>
+									<i class="fa fa-check"></i>Jonathan Kwok
+								</li>
+	              				<li>
+								<i class="fa fa-check"></i>Avantika Gokulnatha
+	              				</li>
+							</ul>
+							<ul>
+								<li>
+									<i class="fa fa-check"></i>Jocelyn Lee
+								</li>
+								<li>
+									<i class="fa fa-check"></i>Jessie Deng
+								</li>
+								<li>
+									<i class="fa fa-check"></i>Melanie Toy
+								</li><li>
+									<i class="fa fa-check"></i>Yutong Ji
+								</li>
+								<li>
+									<i class="fa fa-check"></i>Patience Nguyen
+								</li>
+								<li>
+									<i class="fa fa-check"></i>James Zhang
+								</li>
+								<li>
+									<i class="fa fa-check"></i>Harika Kovvuri
+								</li>
+								<li>
+									<i class="fa fa-check"></i>Nabiya Haider
+								</li>
+								<li>
+									<i class="fa fa-check"></i>Anna Krueger
 								</li>
 							</ul>
-						</div>
 					</div>
 			</div>
 		</div>

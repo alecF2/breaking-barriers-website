@@ -28,3 +28,5 @@ yarn-error.log*
 
 /server/node_modules
 /server/.env
+.vercel
+.env

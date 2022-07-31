@@ -8,7 +8,7 @@ const CurrentProjects_body = () =>{
 			<div className="barriers-current-proj-body web">
 				<div className="project-row">
 					<div className="current-proj-pic">
-						<img id="cp-cat" src="images/CPcat.svg"/>
+						<img id="cp-cat" src="images/currentprojects.jpg"/>
 						<img id="cp-frame" src="images/Frame.svg"/>
 					</div>
 					<div className="current-proj-text">
@@ -28,7 +28,7 @@ const CurrentProjects_body = () =>{
 			<div className="barriers-current-proj-body mobile">
 			
 				<div className="current-proj-pic">
-					<img id="cp-cat" src="images/CPcat.svg"/>
+					<img id="cp-cat" src="images/currentprojects.jpg"/>
 					<img id="cp-frame" src="images/Frame.svg"/>
 				</div>
 			</div>

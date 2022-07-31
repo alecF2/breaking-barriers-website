@@ -14,10 +14,12 @@ const Home = () =>{
 				<div className="barriers-home-content">
 					<div className="home-web-text">
 						<h1>"Breaking" that<br/>invisible barrier<br/>across generations</h1>
-						<button>learn more ></button>
+						<button>
+							<a href="/currentProjects">learn more ></a>
+						</button>
 					</div>
 					<div className="landingPage-barriers-pic">
-						<img id="lp-pic" src="images/home-web-image.svg"/>
+						<img id="lp-pic" src="images/home_hands.jpg"/>
 						<img id="lp-frame" src="images/home-image-frame.svg"/>
 					</div>
 				</div>

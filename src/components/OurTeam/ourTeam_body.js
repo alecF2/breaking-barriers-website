@@ -8,7 +8,7 @@ const OurTeam_body = () =>{
 		<div className="team-background">
 			<h1 className="team-center">Our Team</h1>
 			<div className = "our-team">
-				<img className="image-two" src="images/Group_128_ourTeam.png"></img> 
+				<img className="image-two" src="images/team-2.png"></img> 
 			</div>
 			<p class="margin-text" id="p1"> 
 				<strong>Breaking Barriers</strong> is comprised of compassionate and 
@@ -28,7 +28,7 @@ const OurTeam_body = () =>{
 			<div class="team-flex-container">
 
 				<div class="flex-child-team magenta">
-					<img className="temp" src="images/bird_OurTeam.svg"></img> 
+					<img className="temp" src="images/group.jpeg"></img> 
 				</div>
 
 				<div class="flex-child-team green">

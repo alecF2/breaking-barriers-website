@@ -14,11 +14,11 @@ const Mission = () =>{
 					sense of purpose in college students </strong>as they<br/>
 					engage and learn from elderly adults.</p>
 					<div className="mission-text-button">
-						<button>volunteer with us!</button>
+						<button><a href="/contactUs">volunteer with us ></a></button>
 					</div>
 				</div>
 				<div className="mission-pic">
-					<img id="mission-pic" src="images/mission-pic.svg"/>
+					<img id="mission-pic" src="images/home_mission.jpg"/>
 					<img id="mission-frame" src="images/mission-frame.svg"/>
 				</div>
 			</div>
