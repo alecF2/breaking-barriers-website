@@ -39,7 +39,6 @@ const ContactUs_body = () => {
       return;
     }
     formData.token = await executeRecaptcha();
-    console.log(formData.token);
 
     // POST request to server:
     let res, response;
